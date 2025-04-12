@@ -1,0 +1,77 @@
+@use "sass:meta";
+// C:/dev/javascript/bulmaswatch/cosmo/_overrides.scss
+
+@use "initial-variables" as iv; // Use initial variables
+@use "../../utilities/derived-variables" as dv;
+@use "sass:list";
+@use "sass:color";
+@use "../../utilities/mixins"; // Adjust path if needed
+@use "../../utilities/light-initial-variables" as liv;
+
+// Overrides
+
+// Example: Update the button loop
+.button {
+  // ... other button styles ...
+
+  @each $name, $pair in iv.$my-colors { // Use the map from initial variables
+    // Safety check: Ensure $pair is a list with at least 2 elements
+    @if meta.type-of($pair) == "list" and list.length($pair) >= 2 {
+      $color: list.nth($pair, 1);
+      $color-invert: list.nth($pair, 2);
+
+      &.is-#{$name} {
+        // Use color.adjust and add % units
+        border-color: color.adjust($color, $lightness: -5%);
+
+        &.is-hovered,
+        &:hover {
+          border-color: color.adjust($color, $lightness: -10%) !important;
+        }
+
+        &.is-active,
+        &.is-focused,
+        &:active,
+        &:focus {
+          border-color: color.adjust($color, $lightness: -10%);
+          // Use CSS variables for consistency if possible, or calculate
+          box-shadow: iv.$input-focus-box-shadow-size rgba($color, 0.25); // Example
+        }
+      }
+    } @else {
+      @warn "Skipping invalid color pair for '#{$name}' in _overrides.scss button loop.";
+    }
+  }
+}
+
+// Example: Update the input/textarea loop
+.input,
+.textarea {
+  // ... other input styles ...
+
+  @each $name, $pair in iv.$my-colors {
+    @if meta.type-of($pair) == "list" and list.length($pair) >= 2 {
+      $color: list.nth($pair, 1);
+      // $color-invert: list.nth($pair, 2); // Invert not used here
+
+      &.is-#{$name} {
+        &.is-active,
+        &.is-focused,
+        &:active,
+        &:focus {
+          border-color: color.adjust($color, $lightness: -10%);
+          box-shadow: inset 0 0.125em 0 rgba(liv.$black, 0.075), // Use iv.$black
+          iv.$input-focus-box-shadow-size rgba($color, 0.25); // Example
+        }
+      }
+    } @else {
+      @warn "Skipping invalid color pair for '#{$name}' in _overrides.scss input loop.";
+    }
+  }
+}
+
+// ... Update other loops and styles similarly ...
+// - Replace direct variable usage (e.g., $primary) with values from iv (iv.$primary) if needed.
+// - Replace deprecated functions (darken, nth) with modern equivalents (color.adjust, list.nth).
+// - Add % units to lightness/saturation adjustments in color.adjust.
+// - Add the safety check `if type-of($pair) == "list" and list.length($pair) >= 2` to all @each loops using $pair.

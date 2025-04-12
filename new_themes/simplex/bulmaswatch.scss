@@ -1,0 +1,30 @@
+@use "../utilities/setup";
+@use "simplex"; // Import the theme mixin file
+@use "overrides"; // Import theme-specific CSS overrides
+@use "bulma/sass" as bulma; // Import Bulma 1.0 core (.sass extension)
+// --- End of @use rules ---
+
+// Main entry point for the SIMPLEX theme.
+
+// Ensure the paths are correct relative to the new theme directory.
+
+/*! bulmaswatch v1.0.0 | MIT License */ // TODO: Update version as needed
+
+// Apply the theme variables and setup to the :root element
+:root {
+  @include simplex.light-theme; // Apply the light theme mixin
+  @include setup.setup-theme; // Apply general Bulma CSS variable setup
+}
+
+// Optional: Add dark theme application logic if a dark-theme mixin exists
+/*
+@media (prefers-color-scheme: dark) {
+  :root {
+    // @include simplex.dark-theme;
+  }
+}
+[data-theme="dark"],
+.theme-dark {
+  // @include simplex.dark-theme;
+}
+*/

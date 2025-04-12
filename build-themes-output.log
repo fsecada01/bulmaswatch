@@ -1,0 +1,2010 @@
+Starting CSS build process from 'new_themes'...
+Output directory 'dist/css' already exists.
+Found 20 theme directories.
+
+--- Processing theme: cerulean ---
+Compiling: new_themes\cerulean\bulmaswatch.scss -> dist\css\cerulean.css
+Executing: npx sass "new_themes\cerulean\bulmaswatch.scss" "dist\css\cerulean.css" --no-source-map --style=compressed --load-path=node_modules --load-path=new_themes\utilities
+DEPRECATION WARNING [color-functions]: color.red() is deprecated. Suggestion:
+
+color.channel($color, "red", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+104 │     "red": color.red($color),
+    │            ^^^^^^^^^^^^^^^^^
+    ╵
+    new_themes\utilities\functions.scss 104:12         bulmaColorLuminance()
+    new_themes\utilities\functions.scss 133:7          bulmaFindColorInvert()
+    new_themes\utilities\derived-variables.scss 16:15  @use
+    new_themes\cerulean\cerulean.scss 6:1              @use
+    new_themes\cerulean\bulmaswatch.scss 2:1           root stylesheet
+
+DEPRECATION WARNING [color-functions]: color.green() is deprecated. Suggestion:
+
+color.channel($color, "green", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+105 │     "green": color.green($color),
+    │              ^^^^^^^^^^^^^^^^^^^
+    ╵
+    new_themes\utilities\functions.scss 105:14         bulmaColorLuminance()
+    new_themes\utilities\functions.scss 133:7          bulmaFindColorInvert()
+    new_themes\utilities\derived-variables.scss 16:15  @use
+    new_themes\cerulean\cerulean.scss 6:1              @use
+    new_themes\cerulean\bulmaswatch.scss 2:1           root stylesheet
+
+DEPRECATION WARNING [color-functions]: color.blue() is deprecated. Suggestion:
+
+color.channel($color, "blue", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+106 │     "blue": color.blue($color),
+    │             ^^^^^^^^^^^^^^^^^^
+    ╵
+    new_themes\utilities\functions.scss 106:13         bulmaColorLuminance()
+    new_themes\utilities\functions.scss 133:7          bulmaFindColorInvert()
+    new_themes\utilities\derived-variables.scss 16:15  @use
+    new_themes\cerulean\cerulean.scss 6:1              @use
+    new_themes\cerulean\bulmaswatch.scss 2:1           root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+11 │ @import "../utilities/light-initial-variables.scss";
+   │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    new_themes\cerulean\initial-variables.scss 11:9  @use
+    new_themes\cerulean\cerulean.scss 7:1            @use
+    new_themes\cerulean\bulmaswatch.scss 2:1         root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+12 │ @import "../utilities/derived-variables.scss";
+   │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    new_themes\cerulean\initial-variables.scss 12:9  @use
+    new_themes\cerulean\cerulean.scss 7:1            @use
+    new_themes\cerulean\bulmaswatch.scss 2:1         root stylesheet
+
+Error: Undefined variable.
+   ╷
+72 │       $orange-invert,
+   │       ^^^^^^^^^^^^^^
+   ╵
+  new_themes\cerulean\initial-variables.scss 72:7  @use
+  new_themes\cerulean\cerulean.scss 7:1            @use
+  new_themes\cerulean\bulmaswatch.scss 2:1         root stylesheet
+Error compiling theme 'cerulean'. See Sass output above for details.
+
+--- Processing theme: cyborg ---
+Compiling: new_themes\cyborg\bulmaswatch.scss -> dist\css\cyborg.css
+Executing: npx sass "new_themes\cyborg\bulmaswatch.scss" "dist\css\cyborg.css" --no-source-map --style=compressed --load-path=node_modules --load-path=new_themes\utilities
+DEPRECATION WARNING [color-functions]: color.red() is deprecated. Suggestion:
+
+color.channel($color, "red", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+104 │     "red": color.red($color),
+    │            ^^^^^^^^^^^^^^^^^
+    ╵
+    new_themes\utilities\functions.scss 104:12         bulmaColorLuminance()
+    new_themes\utilities\functions.scss 133:7          bulmaFindColorInvert()
+    new_themes\utilities\derived-variables.scss 16:15  @use
+    new_themes\cyborg\cyborg.scss 6:1                  @use
+    new_themes\cyborg\bulmaswatch.scss 2:1             root stylesheet
+
+DEPRECATION WARNING [color-functions]: color.green() is deprecated. Suggestion:
+
+color.channel($color, "green", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+105 │     "green": color.green($color),
+    │              ^^^^^^^^^^^^^^^^^^^
+    ╵
+    new_themes\utilities\functions.scss 105:14         bulmaColorLuminance()
+    new_themes\utilities\functions.scss 133:7          bulmaFindColorInvert()
+    new_themes\utilities\derived-variables.scss 16:15  @use
+    new_themes\cyborg\cyborg.scss 6:1                  @use
+    new_themes\cyborg\bulmaswatch.scss 2:1             root stylesheet
+
+DEPRECATION WARNING [color-functions]: color.blue() is deprecated. Suggestion:
+
+color.channel($color, "blue", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+106 │     "blue": color.blue($color),
+    │             ^^^^^^^^^^^^^^^^^^
+    ╵
+    new_themes\utilities\functions.scss 106:13         bulmaColorLuminance()
+    new_themes\utilities\functions.scss 133:7          bulmaFindColorInvert()
+    new_themes\utilities\derived-variables.scss 16:15  @use
+    new_themes\cyborg\cyborg.scss 6:1                  @use
+    new_themes\cyborg\bulmaswatch.scss 2:1             root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+11 │ @import "../utilities/light-initial-variables.scss";
+   │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    new_themes\cyborg\initial-variables.scss 11:9  @use
+    new_themes\cyborg\cyborg.scss 7:1              @use
+    new_themes\cyborg\bulmaswatch.scss 2:1         root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+12 │ @import "../utilities/derived-variables.scss";
+   │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    new_themes\cyborg\initial-variables.scss 12:9  @use
+    new_themes\cyborg\cyborg.scss 7:1              @use
+    new_themes\cyborg\bulmaswatch.scss 2:1         root stylesheet
+
+Error: Undefined variable.
+   ╷
+83 │       $primary-light,
+   │       ^^^^^^^^^^^^^^
+   ╵
+  new_themes\cyborg\initial-variables.scss 83:7  @use
+  new_themes\cyborg\cyborg.scss 7:1              @use
+  new_themes\cyborg\bulmaswatch.scss 2:1         root stylesheet
+Error compiling theme 'cyborg'. See Sass output above for details.
+
+--- Processing theme: darkly ---
+Compiling: new_themes\darkly\bulmaswatch.scss -> dist\css\darkly.css
+Executing: npx sass "new_themes\darkly\bulmaswatch.scss" "dist\css\darkly.css" --no-source-map --style=compressed --load-path=node_modules --load-path=new_themes\utilities
+DEPRECATION WARNING [color-functions]: color.red() is deprecated. Suggestion:
+
+color.channel($color, "red", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+104 │     "red": color.red($color),
+    │            ^^^^^^^^^^^^^^^^^
+    ╵
+    new_themes\utilities\functions.scss 104:12         bulmaColorLuminance()
+    new_themes\utilities\functions.scss 133:7          bulmaFindColorInvert()
+    new_themes\utilities\derived-variables.scss 16:15  @use
+    new_themes\darkly\darkly.scss 6:1                  @use
+    new_themes\darkly\bulmaswatch.scss 2:1             root stylesheet
+
+DEPRECATION WARNING [color-functions]: color.green() is deprecated. Suggestion:
+
+color.channel($color, "green", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+105 │     "green": color.green($color),
+    │              ^^^^^^^^^^^^^^^^^^^
+    ╵
+    new_themes\utilities\functions.scss 105:14         bulmaColorLuminance()
+    new_themes\utilities\functions.scss 133:7          bulmaFindColorInvert()
+    new_themes\utilities\derived-variables.scss 16:15  @use
+    new_themes\darkly\darkly.scss 6:1                  @use
+    new_themes\darkly\bulmaswatch.scss 2:1             root stylesheet
+
+DEPRECATION WARNING [color-functions]: color.blue() is deprecated. Suggestion:
+
+color.channel($color, "blue", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+106 │     "blue": color.blue($color),
+    │             ^^^^^^^^^^^^^^^^^^
+    ╵
+    new_themes\utilities\functions.scss 106:13         bulmaColorLuminance()
+    new_themes\utilities\functions.scss 133:7          bulmaFindColorInvert()
+    new_themes\utilities\derived-variables.scss 16:15  @use
+    new_themes\darkly\darkly.scss 6:1                  @use
+    new_themes\darkly\bulmaswatch.scss 2:1             root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+11 │ @import "../utilities/light-initial-variables.scss";
+   │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    new_themes\darkly\initial-variables.scss 11:9  @use
+    new_themes\darkly\darkly.scss 7:1              @use
+    new_themes\darkly\bulmaswatch.scss 2:1         root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+12 │ @import "../utilities/derived-variables.scss";
+   │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    new_themes\darkly\initial-variables.scss 12:9  @use
+    new_themes\darkly\darkly.scss 7:1              @use
+    new_themes\darkly\bulmaswatch.scss 2:1         root stylesheet
+
+DEPRECATION WARNING [function-units]: $lightness: Passing a number without unit % (5) is deprecated.
+
+To preserve current behavior: $lightness * 1%
+
+More info: https://sass-lang.com/d/function-units
+
+   ╷
+79 │       color.adjust($link, $lightness: 5),
+   │       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    new_themes\darkly\initial-variables.scss 79:7  @use
+    new_themes\darkly\darkly.scss 7:1              @use
+    new_themes\darkly\bulmaswatch.scss 2:1         root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+5 │ @import "../utilities/mixins.scss"; // Import shared mixins if needed
+  │         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ╵
+    new_themes\darkly\overrides.scss 5:9    @use
+    new_themes\darkly\bulmaswatch.scss 3:1  root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+6 │ @import "initial-variables"; // Import theme variables for use in overrides
+  │         ^^^^^^^^^^^^^^^^^^^
+  ╵
+    new_themes\darkly\overrides.scss 6:9    @use
+    new_themes\darkly\bulmaswatch.scss 3:1  root stylesheet
+
+Error: Undefined variable.
+   ╷
+31 │     &.is-#{$name} {
+   │            ^^^^^
+   ╵
+  new_themes\darkly\overrides.scss 31:12  @use
+  new_themes\darkly\bulmaswatch.scss 3:1  root stylesheet
+Error compiling theme 'darkly'. See Sass output above for details.
+
+--- Processing theme: flatly ---
+Compiling: new_themes\flatly\bulmaswatch.scss -> dist\css\flatly.css
+Executing: npx sass "new_themes\flatly\bulmaswatch.scss" "dist\css\flatly.css" --no-source-map --style=compressed --load-path=node_modules --load-path=new_themes\utilities
+DEPRECATION WARNING [color-functions]: color.red() is deprecated. Suggestion:
+
+color.channel($color, "red", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+104 │     "red": color.red($color),
+    │            ^^^^^^^^^^^^^^^^^
+    ╵
+    new_themes\utilities\functions.scss 104:12         bulmaColorLuminance()
+    new_themes\utilities\functions.scss 133:7          bulmaFindColorInvert()
+    new_themes\utilities\derived-variables.scss 16:15  @use
+    new_themes\flatly\flatly.scss 6:1                  @use
+    new_themes\flatly\bulmaswatch.scss 2:1             root stylesheet
+
+DEPRECATION WARNING [color-functions]: color.green() is deprecated. Suggestion:
+
+color.channel($color, "green", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+105 │     "green": color.green($color),
+    │              ^^^^^^^^^^^^^^^^^^^
+    ╵
+    new_themes\utilities\functions.scss 105:14         bulmaColorLuminance()
+    new_themes\utilities\functions.scss 133:7          bulmaFindColorInvert()
+    new_themes\utilities\derived-variables.scss 16:15  @use
+    new_themes\flatly\flatly.scss 6:1                  @use
+    new_themes\flatly\bulmaswatch.scss 2:1             root stylesheet
+
+DEPRECATION WARNING [color-functions]: color.blue() is deprecated. Suggestion:
+
+color.channel($color, "blue", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+106 │     "blue": color.blue($color),
+    │             ^^^^^^^^^^^^^^^^^^
+    ╵
+    new_themes\utilities\functions.scss 106:13         bulmaColorLuminance()
+    new_themes\utilities\functions.scss 133:7          bulmaFindColorInvert()
+    new_themes\utilities\derived-variables.scss 16:15  @use
+    new_themes\flatly\flatly.scss 6:1                  @use
+    new_themes\flatly\bulmaswatch.scss 2:1             root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+11 │ @import "../utilities/light-initial-variables.scss";
+   │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    new_themes\flatly\initial-variables.scss 11:9  @use
+    new_themes\flatly\flatly.scss 7:1              @use
+    new_themes\flatly\bulmaswatch.scss 2:1         root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+12 │ @import "../utilities/derived-variables.scss";
+   │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    new_themes\flatly\initial-variables.scss 12:9  @use
+    new_themes\flatly\flatly.scss 7:1              @use
+    new_themes\flatly\bulmaswatch.scss 2:1         root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+5 │ @import "../utilities/mixins.scss"; // Import shared mixins if needed
+  │         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ╵
+    new_themes\flatly\overrides.scss 5:9    @use
+    new_themes\flatly\bulmaswatch.scss 3:1  root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+6 │ @import "initial-variables"; // Import theme variables for use in overrides
+  │         ^^^^^^^^^^^^^^^^^^^
+  ╵
+    new_themes\flatly\overrides.scss 6:9    @use
+    new_themes\flatly\bulmaswatch.scss 3:1  root stylesheet
+
+Error: Undefined variable.
+   ╷
+31 │     &.is-#{$name} {
+   │            ^^^^^
+   ╵
+  new_themes\flatly\overrides.scss 31:12  @use
+  new_themes\flatly\bulmaswatch.scss 3:1  root stylesheet
+Error compiling theme 'flatly'. See Sass output above for details.
+
+--- Processing theme: journal ---
+Compiling: new_themes\journal\bulmaswatch.scss -> dist\css\journal.css
+Executing: npx sass "new_themes\journal\bulmaswatch.scss" "dist\css\journal.css" --no-source-map --style=compressed --load-path=node_modules --load-path=new_themes\utilities
+DEPRECATION WARNING [color-functions]: color.red() is deprecated. Suggestion:
+
+color.channel($color, "red", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+104 │     "red": color.red($color),
+    │            ^^^^^^^^^^^^^^^^^
+    ╵
+    new_themes\utilities\functions.scss 104:12         bulmaColorLuminance()
+    new_themes\utilities\functions.scss 133:7          bulmaFindColorInvert()
+    new_themes\utilities\derived-variables.scss 16:15  @use
+    new_themes\journal\journal.scss 6:1                @use
+    new_themes\journal\bulmaswatch.scss 2:1            root stylesheet
+
+DEPRECATION WARNING [color-functions]: color.green() is deprecated. Suggestion:
+
+color.channel($color, "green", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+105 │     "green": color.green($color),
+    │              ^^^^^^^^^^^^^^^^^^^
+    ╵
+    new_themes\utilities\functions.scss 105:14         bulmaColorLuminance()
+    new_themes\utilities\functions.scss 133:7          bulmaFindColorInvert()
+    new_themes\utilities\derived-variables.scss 16:15  @use
+    new_themes\journal\journal.scss 6:1                @use
+    new_themes\journal\bulmaswatch.scss 2:1            root stylesheet
+
+DEPRECATION WARNING [color-functions]: color.blue() is deprecated. Suggestion:
+
+color.channel($color, "blue", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+106 │     "blue": color.blue($color),
+    │             ^^^^^^^^^^^^^^^^^^
+    ╵
+    new_themes\utilities\functions.scss 106:13         bulmaColorLuminance()
+    new_themes\utilities\functions.scss 133:7          bulmaFindColorInvert()
+    new_themes\utilities\derived-variables.scss 16:15  @use
+    new_themes\journal\journal.scss 6:1                @use
+    new_themes\journal\bulmaswatch.scss 2:1            root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+11 │ @import "../utilities/light-initial-variables.scss";
+   │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    new_themes\journal\initial-variables.scss 11:9  @use
+    new_themes\journal\journal.scss 7:1             @use
+    new_themes\journal\bulmaswatch.scss 2:1         root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+12 │ @import "../utilities/derived-variables.scss";
+   │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    new_themes\journal\initial-variables.scss 12:9  @use
+    new_themes\journal\journal.scss 7:1             @use
+    new_themes\journal\bulmaswatch.scss 2:1         root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+5 │ @import "../utilities/mixins.scss"; // Import shared mixins if needed
+  │         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ╵
+    new_themes\journal\overrides.scss 5:9    @use
+    new_themes\journal\bulmaswatch.scss 3:1  root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+6 │ @import "initial-variables"; // Import theme variables for use in overrides
+  │         ^^^^^^^^^^^^^^^^^^^
+  ╵
+    new_themes\journal\overrides.scss 6:9    @use
+    new_themes\journal\bulmaswatch.scss 3:1  root stylesheet
+
+Error: Undefined variable.
+   ╷
+31 │     &.is-#{$name} {
+   │            ^^^^^
+   ╵
+  new_themes\journal\overrides.scss 31:12  @use
+  new_themes\journal\bulmaswatch.scss 3:1  root stylesheet
+Error compiling theme 'journal'. See Sass output above for details.
+
+--- Processing theme: litera ---
+Compiling: new_themes\litera\bulmaswatch.scss -> dist\css\litera.css
+Executing: npx sass "new_themes\litera\bulmaswatch.scss" "dist\css\litera.css" --no-source-map --style=compressed --load-path=node_modules --load-path=new_themes\utilities
+DEPRECATION WARNING [color-functions]: color.red() is deprecated. Suggestion:
+
+color.channel($color, "red", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+104 │     "red": color.red($color),
+    │            ^^^^^^^^^^^^^^^^^
+    ╵
+    new_themes\utilities\functions.scss 104:12         bulmaColorLuminance()
+    new_themes\utilities\functions.scss 133:7          bulmaFindColorInvert()
+    new_themes\utilities\derived-variables.scss 16:15  @use
+    new_themes\litera\litera.scss 6:1                  @use
+    new_themes\litera\bulmaswatch.scss 2:1             root stylesheet
+
+DEPRECATION WARNING [color-functions]: color.green() is deprecated. Suggestion:
+
+color.channel($color, "green", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+105 │     "green": color.green($color),
+    │              ^^^^^^^^^^^^^^^^^^^
+    ╵
+    new_themes\utilities\functions.scss 105:14         bulmaColorLuminance()
+    new_themes\utilities\functions.scss 133:7          bulmaFindColorInvert()
+    new_themes\utilities\derived-variables.scss 16:15  @use
+    new_themes\litera\litera.scss 6:1                  @use
+    new_themes\litera\bulmaswatch.scss 2:1             root stylesheet
+
+DEPRECATION WARNING [color-functions]: color.blue() is deprecated. Suggestion:
+
+color.channel($color, "blue", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+106 │     "blue": color.blue($color),
+    │             ^^^^^^^^^^^^^^^^^^
+    ╵
+    new_themes\utilities\functions.scss 106:13         bulmaColorLuminance()
+    new_themes\utilities\functions.scss 133:7          bulmaFindColorInvert()
+    new_themes\utilities\derived-variables.scss 16:15  @use
+    new_themes\litera\litera.scss 6:1                  @use
+    new_themes\litera\bulmaswatch.scss 2:1             root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+11 │ @import "../utilities/light-initial-variables.scss";
+   │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    new_themes\litera\initial-variables.scss 11:9  @use
+    new_themes\litera\litera.scss 7:1              @use
+    new_themes\litera\bulmaswatch.scss 2:1         root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+12 │ @import "../utilities/derived-variables.scss";
+   │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    new_themes\litera\initial-variables.scss 12:9  @use
+    new_themes\litera\litera.scss 7:1              @use
+    new_themes\litera\bulmaswatch.scss 2:1         root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+5 │ @import "../utilities/mixins.scss"; // Import shared mixins if needed
+  │         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ╵
+    new_themes\litera\overrides.scss 5:9    @use
+    new_themes\litera\bulmaswatch.scss 3:1  root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+6 │ @import "initial-variables"; // Import theme variables for use in overrides
+  │         ^^^^^^^^^^^^^^^^^^^
+  ╵
+    new_themes\litera\overrides.scss 6:9    @use
+    new_themes\litera\bulmaswatch.scss 3:1  root stylesheet
+
+Error: Undefined variable.
+   ╷
+31 │     &.is-#{$name} {
+   │            ^^^^^
+   ╵
+  new_themes\litera\overrides.scss 31:12  @use
+  new_themes\litera\bulmaswatch.scss 3:1  root stylesheet
+Error compiling theme 'litera'. See Sass output above for details.
+
+--- Processing theme: lumen ---
+Compiling: new_themes\lumen\bulmaswatch.scss -> dist\css\lumen.css
+Executing: npx sass "new_themes\lumen\bulmaswatch.scss" "dist\css\lumen.css" --no-source-map --style=compressed --load-path=node_modules --load-path=new_themes\utilities
+DEPRECATION WARNING [color-functions]: color.red() is deprecated. Suggestion:
+
+color.channel($color, "red", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+104 │     "red": color.red($color),
+    │            ^^^^^^^^^^^^^^^^^
+    ╵
+    new_themes\utilities\functions.scss 104:12         bulmaColorLuminance()
+    new_themes\utilities\functions.scss 133:7          bulmaFindColorInvert()
+    new_themes\utilities\derived-variables.scss 16:15  @use
+    new_themes\lumen\lumen.scss 6:1                    @use
+    new_themes\lumen\bulmaswatch.scss 2:1              root stylesheet
+
+DEPRECATION WARNING [color-functions]: color.green() is deprecated. Suggestion:
+
+color.channel($color, "green", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+105 │     "green": color.green($color),
+    │              ^^^^^^^^^^^^^^^^^^^
+    ╵
+    new_themes\utilities\functions.scss 105:14         bulmaColorLuminance()
+    new_themes\utilities\functions.scss 133:7          bulmaFindColorInvert()
+    new_themes\utilities\derived-variables.scss 16:15  @use
+    new_themes\lumen\lumen.scss 6:1                    @use
+    new_themes\lumen\bulmaswatch.scss 2:1              root stylesheet
+
+DEPRECATION WARNING [color-functions]: color.blue() is deprecated. Suggestion:
+
+color.channel($color, "blue", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+106 │     "blue": color.blue($color),
+    │             ^^^^^^^^^^^^^^^^^^
+    ╵
+    new_themes\utilities\functions.scss 106:13         bulmaColorLuminance()
+    new_themes\utilities\functions.scss 133:7          bulmaFindColorInvert()
+    new_themes\utilities\derived-variables.scss 16:15  @use
+    new_themes\lumen\lumen.scss 6:1                    @use
+    new_themes\lumen\bulmaswatch.scss 2:1              root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+11 │ @import "../utilities/light-initial-variables.scss";
+   │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    new_themes\lumen\initial-variables.scss 11:9  @use
+    new_themes\lumen\lumen.scss 7:1               @use
+    new_themes\lumen\bulmaswatch.scss 2:1         root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+12 │ @import "../utilities/derived-variables.scss";
+   │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    new_themes\lumen\initial-variables.scss 12:9  @use
+    new_themes\lumen\lumen.scss 7:1               @use
+    new_themes\lumen\bulmaswatch.scss 2:1         root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+5 │ @import "../utilities/mixins.scss"; // Import shared mixins if needed
+  │         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ╵
+    new_themes\lumen\overrides.scss 5:9    @use
+    new_themes\lumen\bulmaswatch.scss 3:1  root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+6 │ @import "initial-variables"; // Import theme variables for use in overrides
+  │         ^^^^^^^^^^^^^^^^^^^
+  ╵
+    new_themes\lumen\overrides.scss 6:9    @use
+    new_themes\lumen\bulmaswatch.scss 3:1  root stylesheet
+
+Error: Undefined variable.
+   ╷
+31 │     &.is-#{$name} {
+   │            ^^^^^
+   ╵
+  new_themes\lumen\overrides.scss 31:12  @use
+  new_themes\lumen\bulmaswatch.scss 3:1  root stylesheet
+Error compiling theme 'lumen'. See Sass output above for details.
+
+--- Processing theme: lux ---
+Compiling: new_themes\lux\bulmaswatch.scss -> dist\css\lux.css
+Executing: npx sass "new_themes\lux\bulmaswatch.scss" "dist\css\lux.css" --no-source-map --style=compressed --load-path=node_modules --load-path=new_themes\utilities
+DEPRECATION WARNING [color-functions]: color.red() is deprecated. Suggestion:
+
+color.channel($color, "red", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+104 │     "red": color.red($color),
+    │            ^^^^^^^^^^^^^^^^^
+    ╵
+    new_themes\utilities\functions.scss 104:12         bulmaColorLuminance()
+    new_themes\utilities\functions.scss 133:7          bulmaFindColorInvert()
+    new_themes\utilities\derived-variables.scss 16:15  @use
+    new_themes\lux\lux.scss 6:1                        @use
+    new_themes\lux\bulmaswatch.scss 2:1                root stylesheet
+
+DEPRECATION WARNING [color-functions]: color.green() is deprecated. Suggestion:
+
+color.channel($color, "green", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+105 │     "green": color.green($color),
+    │              ^^^^^^^^^^^^^^^^^^^
+    ╵
+    new_themes\utilities\functions.scss 105:14         bulmaColorLuminance()
+    new_themes\utilities\functions.scss 133:7          bulmaFindColorInvert()
+    new_themes\utilities\derived-variables.scss 16:15  @use
+    new_themes\lux\lux.scss 6:1                        @use
+    new_themes\lux\bulmaswatch.scss 2:1                root stylesheet
+
+DEPRECATION WARNING [color-functions]: color.blue() is deprecated. Suggestion:
+
+color.channel($color, "blue", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+106 │     "blue": color.blue($color),
+    │             ^^^^^^^^^^^^^^^^^^
+    ╵
+    new_themes\utilities\functions.scss 106:13         bulmaColorLuminance()
+    new_themes\utilities\functions.scss 133:7          bulmaFindColorInvert()
+    new_themes\utilities\derived-variables.scss 16:15  @use
+    new_themes\lux\lux.scss 6:1                        @use
+    new_themes\lux\bulmaswatch.scss 2:1                root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+11 │ @import "../utilities/light-initial-variables.scss";
+   │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    new_themes\lux\initial-variables.scss 11:9  @use
+    new_themes\lux\lux.scss 7:1                 @use
+    new_themes\lux\bulmaswatch.scss 2:1         root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+12 │ @import "../utilities/derived-variables.scss";
+   │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    new_themes\lux\initial-variables.scss 12:9  @use
+    new_themes\lux\lux.scss 7:1                 @use
+    new_themes\lux\bulmaswatch.scss 2:1         root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+5 │ @import "../utilities/mixins.scss"; // Import shared mixins if needed
+  │         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ╵
+    new_themes\lux\overrides.scss 5:9    @use
+    new_themes\lux\bulmaswatch.scss 3:1  root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+6 │ @import "initial-variables"; // Import theme variables for use in overrides
+  │         ^^^^^^^^^^^^^^^^^^^
+  ╵
+    new_themes\lux\overrides.scss 6:9    @use
+    new_themes\lux\bulmaswatch.scss 3:1  root stylesheet
+
+Error: Undefined variable.
+   ╷
+31 │     &.is-#{$name} {
+   │            ^^^^^
+   ╵
+  new_themes\lux\overrides.scss 31:12  @use
+  new_themes\lux\bulmaswatch.scss 3:1  root stylesheet
+Error compiling theme 'lux'. See Sass output above for details.
+
+--- Processing theme: materia ---
+Compiling: new_themes\materia\bulmaswatch.scss -> dist\css\materia.css
+Executing: npx sass "new_themes\materia\bulmaswatch.scss" "dist\css\materia.css" --no-source-map --style=compressed --load-path=node_modules --load-path=new_themes\utilities
+DEPRECATION WARNING [color-functions]: color.red() is deprecated. Suggestion:
+
+color.channel($color, "red", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+104 │     "red": color.red($color),
+    │            ^^^^^^^^^^^^^^^^^
+    ╵
+    new_themes\utilities\functions.scss 104:12         bulmaColorLuminance()
+    new_themes\utilities\functions.scss 133:7          bulmaFindColorInvert()
+    new_themes\utilities\derived-variables.scss 16:15  @use
+    new_themes\materia\materia.scss 6:1                @use
+    new_themes\materia\bulmaswatch.scss 2:1            root stylesheet
+
+DEPRECATION WARNING [color-functions]: color.green() is deprecated. Suggestion:
+
+color.channel($color, "green", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+105 │     "green": color.green($color),
+    │              ^^^^^^^^^^^^^^^^^^^
+    ╵
+    new_themes\utilities\functions.scss 105:14         bulmaColorLuminance()
+    new_themes\utilities\functions.scss 133:7          bulmaFindColorInvert()
+    new_themes\utilities\derived-variables.scss 16:15  @use
+    new_themes\materia\materia.scss 6:1                @use
+    new_themes\materia\bulmaswatch.scss 2:1            root stylesheet
+
+DEPRECATION WARNING [color-functions]: color.blue() is deprecated. Suggestion:
+
+color.channel($color, "blue", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+106 │     "blue": color.blue($color),
+    │             ^^^^^^^^^^^^^^^^^^
+    ╵
+    new_themes\utilities\functions.scss 106:13         bulmaColorLuminance()
+    new_themes\utilities\functions.scss 133:7          bulmaFindColorInvert()
+    new_themes\utilities\derived-variables.scss 16:15  @use
+    new_themes\materia\materia.scss 6:1                @use
+    new_themes\materia\bulmaswatch.scss 2:1            root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+11 │ @import "../utilities/light-initial-variables.scss";
+   │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    new_themes\materia\initial-variables.scss 11:9  @use
+    new_themes\materia\materia.scss 7:1             @use
+    new_themes\materia\bulmaswatch.scss 2:1         root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+12 │ @import "../utilities/derived-variables.scss";
+   │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    new_themes\materia\initial-variables.scss 12:9  @use
+    new_themes\materia\materia.scss 7:1             @use
+    new_themes\materia\bulmaswatch.scss 2:1         root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+5 │ @import "../utilities/mixins.scss"; // Import shared mixins if needed
+  │         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ╵
+    new_themes\materia\overrides.scss 5:9    @use
+    new_themes\materia\bulmaswatch.scss 3:1  root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+6 │ @import "initial-variables"; // Import theme variables for use in overrides
+  │         ^^^^^^^^^^^^^^^^^^^
+  ╵
+    new_themes\materia\overrides.scss 6:9    @use
+    new_themes\materia\bulmaswatch.scss 3:1  root stylesheet
+
+Error: Undefined variable.
+   ╷
+31 │     &.is-#{$name} {
+   │            ^^^^^
+   ╵
+  new_themes\materia\overrides.scss 31:12  @use
+  new_themes\materia\bulmaswatch.scss 3:1  root stylesheet
+Error compiling theme 'materia'. See Sass output above for details.
+
+--- Processing theme: minty ---
+Compiling: new_themes\minty\bulmaswatch.scss -> dist\css\minty.css
+Executing: npx sass "new_themes\minty\bulmaswatch.scss" "dist\css\minty.css" --no-source-map --style=compressed --load-path=node_modules --load-path=new_themes\utilities
+DEPRECATION WARNING [color-functions]: color.red() is deprecated. Suggestion:
+
+color.channel($color, "red", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+104 │     "red": color.red($color),
+    │            ^^^^^^^^^^^^^^^^^
+    ╵
+    new_themes\utilities\functions.scss 104:12         bulmaColorLuminance()
+    new_themes\utilities\functions.scss 133:7          bulmaFindColorInvert()
+    new_themes\utilities\derived-variables.scss 16:15  @use
+    new_themes\minty\minty.scss 6:1                    @use
+    new_themes\minty\bulmaswatch.scss 2:1              root stylesheet
+
+DEPRECATION WARNING [color-functions]: color.green() is deprecated. Suggestion:
+
+color.channel($color, "green", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+105 │     "green": color.green($color),
+    │              ^^^^^^^^^^^^^^^^^^^
+    ╵
+    new_themes\utilities\functions.scss 105:14         bulmaColorLuminance()
+    new_themes\utilities\functions.scss 133:7          bulmaFindColorInvert()
+    new_themes\utilities\derived-variables.scss 16:15  @use
+    new_themes\minty\minty.scss 6:1                    @use
+    new_themes\minty\bulmaswatch.scss 2:1              root stylesheet
+
+DEPRECATION WARNING [color-functions]: color.blue() is deprecated. Suggestion:
+
+color.channel($color, "blue", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+106 │     "blue": color.blue($color),
+    │             ^^^^^^^^^^^^^^^^^^
+    ╵
+    new_themes\utilities\functions.scss 106:13         bulmaColorLuminance()
+    new_themes\utilities\functions.scss 133:7          bulmaFindColorInvert()
+    new_themes\utilities\derived-variables.scss 16:15  @use
+    new_themes\minty\minty.scss 6:1                    @use
+    new_themes\minty\bulmaswatch.scss 2:1              root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+11 │ @import "../utilities/light-initial-variables.scss";
+   │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    new_themes\minty\initial-variables.scss 11:9  @use
+    new_themes\minty\minty.scss 7:1               @use
+    new_themes\minty\bulmaswatch.scss 2:1         root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+12 │ @import "../utilities/derived-variables.scss";
+   │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    new_themes\minty\initial-variables.scss 12:9  @use
+    new_themes\minty\minty.scss 7:1               @use
+    new_themes\minty\bulmaswatch.scss 2:1         root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+5 │ @import "../utilities/mixins.scss"; // Import shared mixins if needed
+  │         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ╵
+    new_themes\minty\overrides.scss 5:9    @use
+    new_themes\minty\bulmaswatch.scss 3:1  root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+6 │ @import "initial-variables"; // Import theme variables for use in overrides
+  │         ^^^^^^^^^^^^^^^^^^^
+  ╵
+    new_themes\minty\overrides.scss 6:9    @use
+    new_themes\minty\bulmaswatch.scss 3:1  root stylesheet
+
+Error: Undefined variable.
+   ╷
+31 │     &.is-#{$name} {
+   │            ^^^^^
+   ╵
+  new_themes\minty\overrides.scss 31:12  @use
+  new_themes\minty\bulmaswatch.scss 3:1  root stylesheet
+Error compiling theme 'minty'. See Sass output above for details.
+
+--- Processing theme: nuclear ---
+Compiling: new_themes\nuclear\bulmaswatch.scss -> dist\css\nuclear.css
+Executing: npx sass "new_themes\nuclear\bulmaswatch.scss" "dist\css\nuclear.css" --no-source-map --style=compressed --load-path=node_modules --load-path=new_themes\utilities
+DEPRECATION WARNING [color-functions]: color.red() is deprecated. Suggestion:
+
+color.channel($color, "red", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+104 │     "red": color.red($color),
+    │            ^^^^^^^^^^^^^^^^^
+    ╵
+    new_themes\utilities\functions.scss 104:12         bulmaColorLuminance()
+    new_themes\utilities\functions.scss 133:7          bulmaFindColorInvert()
+    new_themes\utilities\derived-variables.scss 16:15  @use
+    new_themes\nuclear\nuclear.scss 6:1                @use
+    new_themes\nuclear\bulmaswatch.scss 2:1            root stylesheet
+
+DEPRECATION WARNING [color-functions]: color.green() is deprecated. Suggestion:
+
+color.channel($color, "green", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+105 │     "green": color.green($color),
+    │              ^^^^^^^^^^^^^^^^^^^
+    ╵
+    new_themes\utilities\functions.scss 105:14         bulmaColorLuminance()
+    new_themes\utilities\functions.scss 133:7          bulmaFindColorInvert()
+    new_themes\utilities\derived-variables.scss 16:15  @use
+    new_themes\nuclear\nuclear.scss 6:1                @use
+    new_themes\nuclear\bulmaswatch.scss 2:1            root stylesheet
+
+DEPRECATION WARNING [color-functions]: color.blue() is deprecated. Suggestion:
+
+color.channel($color, "blue", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+106 │     "blue": color.blue($color),
+    │             ^^^^^^^^^^^^^^^^^^
+    ╵
+    new_themes\utilities\functions.scss 106:13         bulmaColorLuminance()
+    new_themes\utilities\functions.scss 133:7          bulmaFindColorInvert()
+    new_themes\utilities\derived-variables.scss 16:15  @use
+    new_themes\nuclear\nuclear.scss 6:1                @use
+    new_themes\nuclear\bulmaswatch.scss 2:1            root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+11 │ @import "../utilities/light-initial-variables.scss";
+   │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    new_themes\nuclear\initial-variables.scss 11:9  @use
+    new_themes\nuclear\nuclear.scss 7:1             @use
+    new_themes\nuclear\bulmaswatch.scss 2:1         root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+12 │ @import "../utilities/derived-variables.scss";
+   │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    new_themes\nuclear\initial-variables.scss 12:9  @use
+    new_themes\nuclear\nuclear.scss 7:1             @use
+    new_themes\nuclear\bulmaswatch.scss 2:1         root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+5 │ @import "../utilities/mixins.scss"; // Import shared mixins if needed
+  │         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ╵
+    new_themes\nuclear\overrides.scss 5:9    @use
+    new_themes\nuclear\bulmaswatch.scss 3:1  root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+6 │ @import "initial-variables"; // Import theme variables for use in overrides
+  │         ^^^^^^^^^^^^^^^^^^^
+  ╵
+    new_themes\nuclear\overrides.scss 6:9    @use
+    new_themes\nuclear\bulmaswatch.scss 3:1  root stylesheet
+
+Error: Undefined variable.
+   ╷
+31 │     &.is-#{$name} {
+   │            ^^^^^
+   ╵
+  new_themes\nuclear\overrides.scss 31:12  @use
+  new_themes\nuclear\bulmaswatch.scss 3:1  root stylesheet
+Error compiling theme 'nuclear'. See Sass output above for details.
+
+--- Processing theme: pulse ---
+Compiling: new_themes\pulse\bulmaswatch.scss -> dist\css\pulse.css
+Executing: npx sass "new_themes\pulse\bulmaswatch.scss" "dist\css\pulse.css" --no-source-map --style=compressed --load-path=node_modules --load-path=new_themes\utilities
+DEPRECATION WARNING [color-functions]: color.red() is deprecated. Suggestion:
+
+color.channel($color, "red", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+104 │     "red": color.red($color),
+    │            ^^^^^^^^^^^^^^^^^
+    ╵
+    new_themes\utilities\functions.scss 104:12         bulmaColorLuminance()
+    new_themes\utilities\functions.scss 133:7          bulmaFindColorInvert()
+    new_themes\utilities\derived-variables.scss 16:15  @use
+    new_themes\pulse\pulse.scss 6:1                    @use
+    new_themes\pulse\bulmaswatch.scss 2:1              root stylesheet
+
+DEPRECATION WARNING [color-functions]: color.green() is deprecated. Suggestion:
+
+color.channel($color, "green", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+105 │     "green": color.green($color),
+    │              ^^^^^^^^^^^^^^^^^^^
+    ╵
+    new_themes\utilities\functions.scss 105:14         bulmaColorLuminance()
+    new_themes\utilities\functions.scss 133:7          bulmaFindColorInvert()
+    new_themes\utilities\derived-variables.scss 16:15  @use
+    new_themes\pulse\pulse.scss 6:1                    @use
+    new_themes\pulse\bulmaswatch.scss 2:1              root stylesheet
+
+DEPRECATION WARNING [color-functions]: color.blue() is deprecated. Suggestion:
+
+color.channel($color, "blue", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+106 │     "blue": color.blue($color),
+    │             ^^^^^^^^^^^^^^^^^^
+    ╵
+    new_themes\utilities\functions.scss 106:13         bulmaColorLuminance()
+    new_themes\utilities\functions.scss 133:7          bulmaFindColorInvert()
+    new_themes\utilities\derived-variables.scss 16:15  @use
+    new_themes\pulse\pulse.scss 6:1                    @use
+    new_themes\pulse\bulmaswatch.scss 2:1              root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+11 │ @import "../utilities/light-initial-variables.scss";
+   │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    new_themes\pulse\initial-variables.scss 11:9  @use
+    new_themes\pulse\pulse.scss 7:1               @use
+    new_themes\pulse\bulmaswatch.scss 2:1         root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+12 │ @import "../utilities/derived-variables.scss";
+   │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    new_themes\pulse\initial-variables.scss 12:9  @use
+    new_themes\pulse\pulse.scss 7:1               @use
+    new_themes\pulse\bulmaswatch.scss 2:1         root stylesheet
+
+Error: Undefined variable.
+   ╷
+72 │       $orange-invert,
+   │       ^^^^^^^^^^^^^^
+   ╵
+  new_themes\pulse\initial-variables.scss 72:7  @use
+  new_themes\pulse\pulse.scss 7:1               @use
+  new_themes\pulse\bulmaswatch.scss 2:1         root stylesheet
+Error compiling theme 'pulse'. See Sass output above for details.
+
+--- Processing theme: sandstone ---
+Compiling: new_themes\sandstone\bulmaswatch.scss -> dist\css\sandstone.css
+Executing: npx sass "new_themes\sandstone\bulmaswatch.scss" "dist\css\sandstone.css" --no-source-map --style=compressed --load-path=node_modules --load-path=new_themes\utilities
+DEPRECATION WARNING [color-functions]: color.red() is deprecated. Suggestion:
+
+color.channel($color, "red", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+104 │     "red": color.red($color),
+    │            ^^^^^^^^^^^^^^^^^
+    ╵
+    new_themes\utilities\functions.scss 104:12         bulmaColorLuminance()
+    new_themes\utilities\functions.scss 133:7          bulmaFindColorInvert()
+    new_themes\utilities\derived-variables.scss 16:15  @use
+    new_themes\sandstone\sandstone.scss 6:1            @use
+    new_themes\sandstone\bulmaswatch.scss 2:1          root stylesheet
+
+DEPRECATION WARNING [color-functions]: color.green() is deprecated. Suggestion:
+
+color.channel($color, "green", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+105 │     "green": color.green($color),
+    │              ^^^^^^^^^^^^^^^^^^^
+    ╵
+    new_themes\utilities\functions.scss 105:14         bulmaColorLuminance()
+    new_themes\utilities\functions.scss 133:7          bulmaFindColorInvert()
+    new_themes\utilities\derived-variables.scss 16:15  @use
+    new_themes\sandstone\sandstone.scss 6:1            @use
+    new_themes\sandstone\bulmaswatch.scss 2:1          root stylesheet
+
+DEPRECATION WARNING [color-functions]: color.blue() is deprecated. Suggestion:
+
+color.channel($color, "blue", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+106 │     "blue": color.blue($color),
+    │             ^^^^^^^^^^^^^^^^^^
+    ╵
+    new_themes\utilities\functions.scss 106:13         bulmaColorLuminance()
+    new_themes\utilities\functions.scss 133:7          bulmaFindColorInvert()
+    new_themes\utilities\derived-variables.scss 16:15  @use
+    new_themes\sandstone\sandstone.scss 6:1            @use
+    new_themes\sandstone\bulmaswatch.scss 2:1          root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+11 │ @import "../utilities/light-initial-variables.scss";
+   │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    new_themes\sandstone\initial-variables.scss 11:9  @use
+    new_themes\sandstone\sandstone.scss 7:1           @use
+    new_themes\sandstone\bulmaswatch.scss 2:1         root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+12 │ @import "../utilities/derived-variables.scss";
+   │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    new_themes\sandstone\initial-variables.scss 12:9  @use
+    new_themes\sandstone\sandstone.scss 7:1           @use
+    new_themes\sandstone\bulmaswatch.scss 2:1         root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+5 │ @import "../utilities/mixins.scss"; // Import shared mixins if needed
+  │         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ╵
+    new_themes\sandstone\overrides.scss 5:9    @use
+    new_themes\sandstone\bulmaswatch.scss 3:1  root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+6 │ @import "initial-variables"; // Import theme variables for use in overrides
+  │         ^^^^^^^^^^^^^^^^^^^
+  ╵
+    new_themes\sandstone\overrides.scss 6:9    @use
+    new_themes\sandstone\bulmaswatch.scss 3:1  root stylesheet
+
+Error: Undefined variable.
+   ╷
+31 │     &.is-#{$name} {
+   │            ^^^^^
+   ╵
+  new_themes\sandstone\overrides.scss 31:12  @use
+  new_themes\sandstone\bulmaswatch.scss 3:1  root stylesheet
+Error compiling theme 'sandstone'. See Sass output above for details.
+
+--- Processing theme: simplex ---
+Compiling: new_themes\simplex\bulmaswatch.scss -> dist\css\simplex.css
+Executing: npx sass "new_themes\simplex\bulmaswatch.scss" "dist\css\simplex.css" --no-source-map --style=compressed --load-path=node_modules --load-path=new_themes\utilities
+DEPRECATION WARNING [color-functions]: color.red() is deprecated. Suggestion:
+
+color.channel($color, "red", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+104 │     "red": color.red($color),
+    │            ^^^^^^^^^^^^^^^^^
+    ╵
+    new_themes\utilities\functions.scss 104:12         bulmaColorLuminance()
+    new_themes\utilities\functions.scss 133:7          bulmaFindColorInvert()
+    new_themes\utilities\derived-variables.scss 16:15  @use
+    new_themes\simplex\simplex.scss 6:1                @use
+    new_themes\simplex\bulmaswatch.scss 2:1            root stylesheet
+
+DEPRECATION WARNING [color-functions]: color.green() is deprecated. Suggestion:
+
+color.channel($color, "green", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+105 │     "green": color.green($color),
+    │              ^^^^^^^^^^^^^^^^^^^
+    ╵
+    new_themes\utilities\functions.scss 105:14         bulmaColorLuminance()
+    new_themes\utilities\functions.scss 133:7          bulmaFindColorInvert()
+    new_themes\utilities\derived-variables.scss 16:15  @use
+    new_themes\simplex\simplex.scss 6:1                @use
+    new_themes\simplex\bulmaswatch.scss 2:1            root stylesheet
+
+DEPRECATION WARNING [color-functions]: color.blue() is deprecated. Suggestion:
+
+color.channel($color, "blue", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+106 │     "blue": color.blue($color),
+    │             ^^^^^^^^^^^^^^^^^^
+    ╵
+    new_themes\utilities\functions.scss 106:13         bulmaColorLuminance()
+    new_themes\utilities\functions.scss 133:7          bulmaFindColorInvert()
+    new_themes\utilities\derived-variables.scss 16:15  @use
+    new_themes\simplex\simplex.scss 6:1                @use
+    new_themes\simplex\bulmaswatch.scss 2:1            root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+11 │ @import "../utilities/light-initial-variables.scss";
+   │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    new_themes\simplex\initial-variables.scss 11:9  @use
+    new_themes\simplex\simplex.scss 7:1             @use
+    new_themes\simplex\bulmaswatch.scss 2:1         root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+12 │ @import "../utilities/derived-variables.scss";
+   │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    new_themes\simplex\initial-variables.scss 12:9  @use
+    new_themes\simplex\simplex.scss 7:1             @use
+    new_themes\simplex\bulmaswatch.scss 2:1         root stylesheet
+
+Error: Undefined variable.
+   ╷
+72 │       $orange-invert,
+   │       ^^^^^^^^^^^^^^
+   ╵
+  new_themes\simplex\initial-variables.scss 72:7  @use
+  new_themes\simplex\simplex.scss 7:1             @use
+  new_themes\simplex\bulmaswatch.scss 2:1         root stylesheet
+Error compiling theme 'simplex'. See Sass output above for details.
+
+--- Processing theme: slate ---
+Compiling: new_themes\slate\bulmaswatch.scss -> dist\css\slate.css
+Executing: npx sass "new_themes\slate\bulmaswatch.scss" "dist\css\slate.css" --no-source-map --style=compressed --load-path=node_modules --load-path=new_themes\utilities
+DEPRECATION WARNING [color-functions]: color.red() is deprecated. Suggestion:
+
+color.channel($color, "red", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+104 │     "red": color.red($color),
+    │            ^^^^^^^^^^^^^^^^^
+    ╵
+    new_themes\utilities\functions.scss 104:12         bulmaColorLuminance()
+    new_themes\utilities\functions.scss 133:7          bulmaFindColorInvert()
+    new_themes\utilities\derived-variables.scss 16:15  @use
+    new_themes\slate\slate.scss 6:1                    @use
+    new_themes\slate\bulmaswatch.scss 2:1              root stylesheet
+
+DEPRECATION WARNING [color-functions]: color.green() is deprecated. Suggestion:
+
+color.channel($color, "green", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+105 │     "green": color.green($color),
+    │              ^^^^^^^^^^^^^^^^^^^
+    ╵
+    new_themes\utilities\functions.scss 105:14         bulmaColorLuminance()
+    new_themes\utilities\functions.scss 133:7          bulmaFindColorInvert()
+    new_themes\utilities\derived-variables.scss 16:15  @use
+    new_themes\slate\slate.scss 6:1                    @use
+    new_themes\slate\bulmaswatch.scss 2:1              root stylesheet
+
+DEPRECATION WARNING [color-functions]: color.blue() is deprecated. Suggestion:
+
+color.channel($color, "blue", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+106 │     "blue": color.blue($color),
+    │             ^^^^^^^^^^^^^^^^^^
+    ╵
+    new_themes\utilities\functions.scss 106:13         bulmaColorLuminance()
+    new_themes\utilities\functions.scss 133:7          bulmaFindColorInvert()
+    new_themes\utilities\derived-variables.scss 16:15  @use
+    new_themes\slate\slate.scss 6:1                    @use
+    new_themes\slate\bulmaswatch.scss 2:1              root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+11 │ @import "../utilities/light-initial-variables.scss";
+   │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    new_themes\slate\initial-variables.scss 11:9  @use
+    new_themes\slate\slate.scss 7:1               @use
+    new_themes\slate\bulmaswatch.scss 2:1         root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+12 │ @import "../utilities/derived-variables.scss";
+   │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    new_themes\slate\initial-variables.scss 12:9  @use
+    new_themes\slate\slate.scss 7:1               @use
+    new_themes\slate\bulmaswatch.scss 2:1         root stylesheet
+
+DEPRECATION WARNING [function-units]: $lightness: Passing a number without unit % (5) is deprecated.
+
+To preserve current behavior: $lightness * 1%
+
+More info: https://sass-lang.com/d/function-units
+
+   ╷
+87 │       color.adjust($link, $lightness: 5),
+   │       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    new_themes\slate\initial-variables.scss 87:7  @use
+    new_themes\slate\slate.scss 7:1               @use
+    new_themes\slate\bulmaswatch.scss 2:1         root stylesheet
+
+Error: Undefined variable.
+    ╷
+103 │       $link-focus-border,
+    │       ^^^^^^^^^^^^^^^^^^
+    ╵
+  new_themes\slate\initial-variables.scss 103:7  @use
+  new_themes\slate\slate.scss 7:1                @use
+  new_themes\slate\bulmaswatch.scss 2:1          root stylesheet
+Error compiling theme 'slate'. See Sass output above for details.
+
+--- Processing theme: solar ---
+Compiling: new_themes\solar\bulmaswatch.scss -> dist\css\solar.css
+Executing: npx sass "new_themes\solar\bulmaswatch.scss" "dist\css\solar.css" --no-source-map --style=compressed --load-path=node_modules --load-path=new_themes\utilities
+DEPRECATION WARNING [color-functions]: color.red() is deprecated. Suggestion:
+
+color.channel($color, "red", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+104 │     "red": color.red($color),
+    │            ^^^^^^^^^^^^^^^^^
+    ╵
+    new_themes\utilities\functions.scss 104:12         bulmaColorLuminance()
+    new_themes\utilities\functions.scss 133:7          bulmaFindColorInvert()
+    new_themes\utilities\derived-variables.scss 16:15  @use
+    new_themes\solar\solar.scss 6:1                    @use
+    new_themes\solar\bulmaswatch.scss 2:1              root stylesheet
+
+DEPRECATION WARNING [color-functions]: color.green() is deprecated. Suggestion:
+
+color.channel($color, "green", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+105 │     "green": color.green($color),
+    │              ^^^^^^^^^^^^^^^^^^^
+    ╵
+    new_themes\utilities\functions.scss 105:14         bulmaColorLuminance()
+    new_themes\utilities\functions.scss 133:7          bulmaFindColorInvert()
+    new_themes\utilities\derived-variables.scss 16:15  @use
+    new_themes\solar\solar.scss 6:1                    @use
+    new_themes\solar\bulmaswatch.scss 2:1              root stylesheet
+
+DEPRECATION WARNING [color-functions]: color.blue() is deprecated. Suggestion:
+
+color.channel($color, "blue", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+106 │     "blue": color.blue($color),
+    │             ^^^^^^^^^^^^^^^^^^
+    ╵
+    new_themes\utilities\functions.scss 106:13         bulmaColorLuminance()
+    new_themes\utilities\functions.scss 133:7          bulmaFindColorInvert()
+    new_themes\utilities\derived-variables.scss 16:15  @use
+    new_themes\solar\solar.scss 6:1                    @use
+    new_themes\solar\bulmaswatch.scss 2:1              root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+11 │ @import "../utilities/light-initial-variables.scss";
+   │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    new_themes\solar\initial-variables.scss 11:9  @use
+    new_themes\solar\solar.scss 7:1               @use
+    new_themes\solar\bulmaswatch.scss 2:1         root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+12 │ @import "../utilities/derived-variables.scss";
+   │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    new_themes\solar\initial-variables.scss 12:9  @use
+    new_themes\solar\solar.scss 7:1               @use
+    new_themes\solar\bulmaswatch.scss 2:1         root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+5 │ @import "../utilities/mixins.scss"; // Import shared mixins if needed
+  │         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ╵
+    new_themes\solar\overrides.scss 5:9    @use
+    new_themes\solar\bulmaswatch.scss 3:1  root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+6 │ @import "initial-variables"; // Import theme variables for use in overrides
+  │         ^^^^^^^^^^^^^^^^^^^
+  ╵
+    new_themes\solar\overrides.scss 6:9    @use
+    new_themes\solar\bulmaswatch.scss 3:1  root stylesheet
+
+Error: Undefined variable.
+   ╷
+31 │     &.is-#{$name} {
+   │            ^^^^^
+   ╵
+  new_themes\solar\overrides.scss 31:12  @use
+  new_themes\solar\bulmaswatch.scss 3:1  root stylesheet
+Error compiling theme 'solar'. See Sass output above for details.
+
+--- Processing theme: spacelab ---
+Compiling: new_themes\spacelab\bulmaswatch.scss -> dist\css\spacelab.css
+Executing: npx sass "new_themes\spacelab\bulmaswatch.scss" "dist\css\spacelab.css" --no-source-map --style=compressed --load-path=node_modules --load-path=new_themes\utilities
+DEPRECATION WARNING [color-functions]: color.red() is deprecated. Suggestion:
+
+color.channel($color, "red", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+104 │     "red": color.red($color),
+    │            ^^^^^^^^^^^^^^^^^
+    ╵
+    new_themes\utilities\functions.scss 104:12         bulmaColorLuminance()
+    new_themes\utilities\functions.scss 133:7          bulmaFindColorInvert()
+    new_themes\utilities\derived-variables.scss 16:15  @use
+    new_themes\spacelab\spacelab.scss 6:1              @use
+    new_themes\spacelab\bulmaswatch.scss 2:1           root stylesheet
+
+DEPRECATION WARNING [color-functions]: color.green() is deprecated. Suggestion:
+
+color.channel($color, "green", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+105 │     "green": color.green($color),
+    │              ^^^^^^^^^^^^^^^^^^^
+    ╵
+    new_themes\utilities\functions.scss 105:14         bulmaColorLuminance()
+    new_themes\utilities\functions.scss 133:7          bulmaFindColorInvert()
+    new_themes\utilities\derived-variables.scss 16:15  @use
+    new_themes\spacelab\spacelab.scss 6:1              @use
+    new_themes\spacelab\bulmaswatch.scss 2:1           root stylesheet
+
+DEPRECATION WARNING [color-functions]: color.blue() is deprecated. Suggestion:
+
+color.channel($color, "blue", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+106 │     "blue": color.blue($color),
+    │             ^^^^^^^^^^^^^^^^^^
+    ╵
+    new_themes\utilities\functions.scss 106:13         bulmaColorLuminance()
+    new_themes\utilities\functions.scss 133:7          bulmaFindColorInvert()
+    new_themes\utilities\derived-variables.scss 16:15  @use
+    new_themes\spacelab\spacelab.scss 6:1              @use
+    new_themes\spacelab\bulmaswatch.scss 2:1           root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+11 │ @import "../utilities/light-initial-variables.scss";
+   │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    new_themes\spacelab\initial-variables.scss 11:9  @use
+    new_themes\spacelab\spacelab.scss 7:1            @use
+    new_themes\spacelab\bulmaswatch.scss 2:1         root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+12 │ @import "../utilities/derived-variables.scss";
+   │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    new_themes\spacelab\initial-variables.scss 12:9  @use
+    new_themes\spacelab\spacelab.scss 7:1            @use
+    new_themes\spacelab\bulmaswatch.scss 2:1         root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+5 │ @import "../utilities/mixins.scss"; // Import shared mixins if needed
+  │         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ╵
+    new_themes\spacelab\overrides.scss 5:9    @use
+    new_themes\spacelab\bulmaswatch.scss 3:1  root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+6 │ @import "initial-variables"; // Import theme variables for use in overrides
+  │         ^^^^^^^^^^^^^^^^^^^
+  ╵
+    new_themes\spacelab\overrides.scss 6:9    @use
+    new_themes\spacelab\bulmaswatch.scss 3:1  root stylesheet
+
+Error: Undefined variable.
+   ╷
+31 │     &.is-#{$name} {
+   │            ^^^^^
+   ╵
+  new_themes\spacelab\overrides.scss 31:12  @use
+  new_themes\spacelab\bulmaswatch.scss 3:1  root stylesheet
+Error compiling theme 'spacelab'. See Sass output above for details.
+
+--- Processing theme: superhero ---
+Compiling: new_themes\superhero\bulmaswatch.scss -> dist\css\superhero.css
+Executing: npx sass "new_themes\superhero\bulmaswatch.scss" "dist\css\superhero.css" --no-source-map --style=compressed --load-path=node_modules --load-path=new_themes\utilities
+DEPRECATION WARNING [color-functions]: color.red() is deprecated. Suggestion:
+
+color.channel($color, "red", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+104 │     "red": color.red($color),
+    │            ^^^^^^^^^^^^^^^^^
+    ╵
+    new_themes\utilities\functions.scss 104:12         bulmaColorLuminance()
+    new_themes\utilities\functions.scss 133:7          bulmaFindColorInvert()
+    new_themes\utilities\derived-variables.scss 16:15  @use
+    new_themes\superhero\superhero.scss 6:1            @use
+    new_themes\superhero\bulmaswatch.scss 2:1          root stylesheet
+
+DEPRECATION WARNING [color-functions]: color.green() is deprecated. Suggestion:
+
+color.channel($color, "green", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+105 │     "green": color.green($color),
+    │              ^^^^^^^^^^^^^^^^^^^
+    ╵
+    new_themes\utilities\functions.scss 105:14         bulmaColorLuminance()
+    new_themes\utilities\functions.scss 133:7          bulmaFindColorInvert()
+    new_themes\utilities\derived-variables.scss 16:15  @use
+    new_themes\superhero\superhero.scss 6:1            @use
+    new_themes\superhero\bulmaswatch.scss 2:1          root stylesheet
+
+DEPRECATION WARNING [color-functions]: color.blue() is deprecated. Suggestion:
+
+color.channel($color, "blue", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+106 │     "blue": color.blue($color),
+    │             ^^^^^^^^^^^^^^^^^^
+    ╵
+    new_themes\utilities\functions.scss 106:13         bulmaColorLuminance()
+    new_themes\utilities\functions.scss 133:7          bulmaFindColorInvert()
+    new_themes\utilities\derived-variables.scss 16:15  @use
+    new_themes\superhero\superhero.scss 6:1            @use
+    new_themes\superhero\bulmaswatch.scss 2:1          root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+11 │ @import "../utilities/light-initial-variables.scss";
+   │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    new_themes\superhero\initial-variables.scss 11:9  @use
+    new_themes\superhero\superhero.scss 7:1           @use
+    new_themes\superhero\bulmaswatch.scss 2:1         root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+12 │ @import "../utilities/derived-variables.scss";
+   │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    new_themes\superhero\initial-variables.scss 12:9  @use
+    new_themes\superhero\superhero.scss 7:1           @use
+    new_themes\superhero\bulmaswatch.scss 2:1         root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+5 │ @import "../utilities/mixins.scss"; // Import shared mixins if needed
+  │         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ╵
+    new_themes\superhero\overrides.scss 5:9    @use
+    new_themes\superhero\bulmaswatch.scss 3:1  root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+6 │ @import "initial-variables"; // Import theme variables for use in overrides
+  │         ^^^^^^^^^^^^^^^^^^^
+  ╵
+    new_themes\superhero\overrides.scss 6:9    @use
+    new_themes\superhero\bulmaswatch.scss 3:1  root stylesheet
+
+Error: Undefined variable.
+   ╷
+31 │     &.is-#{$name} {
+   │            ^^^^^
+   ╵
+  new_themes\superhero\overrides.scss 31:12  @use
+  new_themes\superhero\bulmaswatch.scss 3:1  root stylesheet
+Error compiling theme 'superhero'. See Sass output above for details.
+
+--- Processing theme: united ---
+Compiling: new_themes\united\bulmaswatch.scss -> dist\css\united.css
+Executing: npx sass "new_themes\united\bulmaswatch.scss" "dist\css\united.css" --no-source-map --style=compressed --load-path=node_modules --load-path=new_themes\utilities
+DEPRECATION WARNING [color-functions]: color.red() is deprecated. Suggestion:
+
+color.channel($color, "red", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+104 │     "red": color.red($color),
+    │            ^^^^^^^^^^^^^^^^^
+    ╵
+    new_themes\utilities\functions.scss 104:12         bulmaColorLuminance()
+    new_themes\utilities\functions.scss 133:7          bulmaFindColorInvert()
+    new_themes\utilities\derived-variables.scss 16:15  @use
+    new_themes\united\united.scss 6:1                  @use
+    new_themes\united\bulmaswatch.scss 2:1             root stylesheet
+
+DEPRECATION WARNING [color-functions]: color.green() is deprecated. Suggestion:
+
+color.channel($color, "green", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+105 │     "green": color.green($color),
+    │              ^^^^^^^^^^^^^^^^^^^
+    ╵
+    new_themes\utilities\functions.scss 105:14         bulmaColorLuminance()
+    new_themes\utilities\functions.scss 133:7          bulmaFindColorInvert()
+    new_themes\utilities\derived-variables.scss 16:15  @use
+    new_themes\united\united.scss 6:1                  @use
+    new_themes\united\bulmaswatch.scss 2:1             root stylesheet
+
+DEPRECATION WARNING [color-functions]: color.blue() is deprecated. Suggestion:
+
+color.channel($color, "blue", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+106 │     "blue": color.blue($color),
+    │             ^^^^^^^^^^^^^^^^^^
+    ╵
+    new_themes\utilities\functions.scss 106:13         bulmaColorLuminance()
+    new_themes\utilities\functions.scss 133:7          bulmaFindColorInvert()
+    new_themes\utilities\derived-variables.scss 16:15  @use
+    new_themes\united\united.scss 6:1                  @use
+    new_themes\united\bulmaswatch.scss 2:1             root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+11 │ @import "../utilities/light-initial-variables.scss";
+   │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    new_themes\united\initial-variables.scss 11:9  @use
+    new_themes\united\united.scss 7:1              @use
+    new_themes\united\bulmaswatch.scss 2:1         root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+12 │ @import "../utilities/derived-variables.scss";
+   │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    new_themes\united\initial-variables.scss 12:9  @use
+    new_themes\united\united.scss 7:1              @use
+    new_themes\united\bulmaswatch.scss 2:1         root stylesheet
+
+Error: Undefined variable.
+   ╷
+72 │       $yellow-invert,
+   │       ^^^^^^^^^^^^^^
+   ╵
+  new_themes\united\initial-variables.scss 72:7  @use
+  new_themes\united\united.scss 7:1              @use
+  new_themes\united\bulmaswatch.scss 2:1         root stylesheet
+Error compiling theme 'united'. See Sass output above for details.
+
+--- Processing theme: yeti ---
+Compiling: new_themes\yeti\bulmaswatch.scss -> dist\css\yeti.css
+Executing: npx sass "new_themes\yeti\bulmaswatch.scss" "dist\css\yeti.css" --no-source-map --style=compressed --load-path=node_modules --load-path=new_themes\utilities
+DEPRECATION WARNING [color-functions]: color.red() is deprecated. Suggestion:
+
+color.channel($color, "red", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+104 │     "red": color.red($color),
+    │            ^^^^^^^^^^^^^^^^^
+    ╵
+    new_themes\utilities\functions.scss 104:12         bulmaColorLuminance()
+    new_themes\utilities\functions.scss 133:7          bulmaFindColorInvert()
+    new_themes\utilities\derived-variables.scss 16:15  @use
+    new_themes\yeti\yeti.scss 6:1                      @use
+    new_themes\yeti\bulmaswatch.scss 2:1               root stylesheet
+
+DEPRECATION WARNING [color-functions]: color.green() is deprecated. Suggestion:
+
+color.channel($color, "green", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+105 │     "green": color.green($color),
+    │              ^^^^^^^^^^^^^^^^^^^
+    ╵
+    new_themes\utilities\functions.scss 105:14         bulmaColorLuminance()
+    new_themes\utilities\functions.scss 133:7          bulmaFindColorInvert()
+    new_themes\utilities\derived-variables.scss 16:15  @use
+    new_themes\yeti\yeti.scss 6:1                      @use
+    new_themes\yeti\bulmaswatch.scss 2:1               root stylesheet
+
+DEPRECATION WARNING [color-functions]: color.blue() is deprecated. Suggestion:
+
+color.channel($color, "blue", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+106 │     "blue": color.blue($color),
+    │             ^^^^^^^^^^^^^^^^^^
+    ╵
+    new_themes\utilities\functions.scss 106:13         bulmaColorLuminance()
+    new_themes\utilities\functions.scss 133:7          bulmaFindColorInvert()
+    new_themes\utilities\derived-variables.scss 16:15  @use
+    new_themes\yeti\yeti.scss 6:1                      @use
+    new_themes\yeti\bulmaswatch.scss 2:1               root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+11 │ @import "../utilities/light-initial-variables.scss";
+   │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    new_themes\yeti\initial-variables.scss 11:9  @use
+    new_themes\yeti\yeti.scss 7:1                @use
+    new_themes\yeti\bulmaswatch.scss 2:1         root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+12 │ @import "../utilities/derived-variables.scss";
+   │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    new_themes\yeti\initial-variables.scss 12:9  @use
+    new_themes\yeti\yeti.scss 7:1                @use
+    new_themes\yeti\bulmaswatch.scss 2:1         root stylesheet
+
+Error: Undefined variable.
+   ╷
+72 │       $orange-invert,
+   │       ^^^^^^^^^^^^^^
+   ╵
+  new_themes\yeti\initial-variables.scss 72:7  @use
+  new_themes\yeti\yeti.scss 7:1                @use
+  new_themes\yeti\bulmaswatch.scss 2:1         root stylesheet
+Error compiling theme 'yeti'. See Sass output above for details.
+
+--- Build Summary ---
+Successfully compiled: 0 themes.
+Failed to compile:   20 themes.
+---------------------
+Build process finished with errors.

@@ -77,17 +77,17 @@ gulp.task('serve', gulp.parallel('sass:dev', 'jekyll-build', function() {
     });
 }));
 
-gulp.task('sass', gulp.series('clean', function compile() {
-    return gulp.src('*/*.scss')
+gulp.task('sass', gulp.series('clean', function sassTask() { // Give the function a name
+    return gulp.src(['*/*.scss']) // Or a more specific glob pattern
         .pipe(sourcemaps.init())
-        .pipe(sass({
-            includePaths: 'node_modules/bulma'
-        }).on('error', sass.logError))
-        .pipe(rename({
-            suffix: '.min'
-        }))
+        .pipe(sass({ includePaths: ['node_modules/bulma'] })
+            .on('error', function(err) {
+                console.error('Sass compilation error:', err.message);
+                this.emit('end'); // Prevent gulp from hanging on errors
+            }))
         .pipe(autoprefixer())
         .pipe(csso())
+        .pipe(rename({ suffix: '.min' }))
         .pipe(sourcemaps.write('.'))
         .pipe(gulp.dest('.'));
 }));

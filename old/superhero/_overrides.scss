@@ -1,0 +1,127 @@
+@use "bulma/sass" as bulma;
+@use "sass:color";
+@use "sass:list";
+@use "utilities/light-initial-variables" as iv;
+// Overrides
+@if iv.$bulmaswatch-import-font {
+  @import url("https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap");
+}
+
+.section {
+  background-color: bulma.$body-background-color;
+}
+
+.hero {
+  background-color: bulma.$body-background-color;
+}
+
+.button {
+  &.is-hovered,
+  &:hover {
+    background-color: color.adjust($button-background-color, $lightness: -3%);
+  }
+  @each $name, $pair in bulma.$colors {
+    $color: list.nth($pair, 1);
+    $color-invert: list.nth($pair, 2);
+
+    &.is-#{$name} {
+      &.is-hovered,
+      &:hover {
+        background-color: color.adjust($color, $lightness: -3%);
+      }
+    }
+  }
+
+  &.is-loading:after {
+    border-color: transparent transparent $grey-light $grey-light;
+  }
+}
+
+.label {
+  color: $grey-lighter;
+}
+
+.notification {
+  @each $name, $pair in bulma.$colors {
+    $color: list.nth($pair, 1);
+    $color-invert: list.nth($pair, 2);
+
+    &.is-#{$name} {
+      a:not(.button) {
+        color: $color-invert;
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.card {
+  border: 1px solid $border;
+  border-radius: $radius;
+
+  .card-image {
+    img {
+      border-radius: $radius $radius 0 0;
+    }
+  }
+
+  .card-header {
+    border-radius: $radius $radius 0 0;
+  }
+
+  .card-footer,
+  .card-footer-item {
+    border-width: 1px;
+    border-color: $border;
+  }
+}
+
+.modal-card-body {
+  background-color: bulma.$body-background-color;
+}
+
+.navbar {
+  &.is-transparent {
+    background-color: transparent;
+  }
+
+  @include until($navbar-breakpoint) {
+    .navbar-menu {
+      background-color: transparent;
+    }
+  }
+
+  @each $name, $pair in bulma.$colors {
+    $color: list.nth($pair, 1);
+    $color-invert: list.nth($pair, 2);
+
+    &.is-#{$name} {
+      @include until($navbar-breakpoint) {
+        .navbar-item,
+        .navbar-link {
+          color: $color-invert;
+
+          &.is-active {
+            color: rgba($color-invert, 0.7);
+          }
+        }
+
+        .navbar-burger {
+          span {
+            background-color: $color-invert;
+          }
+        }
+      }
+    }
+  }
+}
+
+.hero {
+  .navbar {
+    .navbar-dropdown {
+      .navbar-item {
+        color: $grey-lighter;
+      }
+    }
+  }
+}

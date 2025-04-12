@@ -1,0 +1,95 @@
+@use "sass:color";
+@use "sass:list";
+@use "bulma/sass" as bulma;
+@use "utilities/light-initial-variables" as iv;
+// Overrides
+@if iv.$bulmaswatch-import-font {
+  @import url("https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700&display=swap");
+}
+@mixin btn-shadow($color) {
+  background-image: linear-gradient(
+    180deg,
+    color.adjust($color, $lightness: 15%) 0%,
+    $color 60%,
+    color.adjust($color, $lightness: -4%) 100%
+  );
+  filter: none;
+  border: 1px solid color.adjust($color, $lightness: -10%);
+}
+
+.button {
+  transition: all 200ms ease;
+  text-shadow: -1px -1px 0 rgba($black, 0.1);
+
+  &.is-loading {
+    text-shadow: none;
+  }
+
+  @each $name, $pair in bulma.$colors {
+    $color: list.nth($pair, 1);
+    $color-invert: list.nth($pair, 2);
+
+    &.is-#{$name} {
+      &:not(.is-outlined):not(.is-inverted) {
+        @include btn-shadow($color);
+
+        &.is-hovered,
+        &:hover {
+          @include btn-shadow(color.adjust($color, $lightness: -4%));
+        }
+      }
+    }
+  }
+}
+
+.notification {
+  border: 1px solid $border;
+  @each $name, $pair in bulma.$colors {
+    $color: list.nth($pair, 1);
+    $color-invert: list.nth($pair, 2);
+    $color-lightning: max((100% - color.lightness($color)) - 1%, 0%);
+    &.is-#{$name} {
+      background-color: color.adjust($color, $lightness: $color-lightning);
+      color: $color;
+      border: 1px solid color.adjust($color, $lightness: 30%);
+    }
+  }
+}
+
+.progress {
+  border-radius: $radius-large;
+}
+
+.navbar {
+  @include btn-shadow($light);
+}
+.navbar {
+  @each $name, $pair in bulma.$colors {
+    $color: list.nth($pair, 1);
+    $color-invert: list.nth($pair, 2);
+
+    &.is-#{$name} {
+      @include btn-shadow($color);
+    }
+  }
+}
+
+.hero {
+  .navbar {
+    background-color: $background;
+    @include btn-shadow($light);
+    border: none;
+  }
+  @each $name, $pair in bulma.$colors {
+    $color: list.nth($pair, 1);
+    $color-invert: list.nth($pair, 2);
+
+    &.is-#{$name} {
+      .navbar {
+        background: $color;
+        @include btn-shadow($color);
+        border: none;
+      }
+    }
+  }
+}

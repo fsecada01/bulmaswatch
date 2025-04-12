@@ -1,0 +1,123 @@
+// C:/dev/javascript/bulmaswatch/cosmo/_initial-variables.scss
+
+@use 'sass:color';
+@use "../../utilities/functions" as fn;
+// Use light-initial-variables with a namespace
+@use "../../utilities/light-initial-variables" as liv; // <-- Changed from @import
+
+$light: liv.$grey-lighter !default;
+$dark: liv.$grey-darker !default;
+
+
+
+// Cosmo Specific Colors
+$orange: #ff851b !default;
+$green: #28b62c !default;
+$blue: #5bc0de !default; // Cerulean uses #5bc0de, Cosmo used #2780e3 - adjust as needed
+$red: #ff4136 !default;
+
+$primary: #2780e3 !default; // Cosmo's primary
+// $primary-dark: color.adjust(#2780e3, $lightness: -20%); // Define if needed, or let CSS vars handle it
+
+$info: #5bc0de !default; // Example info color
+$success: $green !default;
+$warning: $orange !default;
+$danger: $red !default;
+
+// Define invert colors explicitly if needed, or rely on Bulma's defaults/calculations
+$primary-invert: #fff !default;
+$info-invert: #fff !default; // Adjust based on info color
+$success-invert: #fff !default;
+$warning-invert: #fff !default;
+$danger-invert: #fff !default;
+
+// Font
+$family-sans-serif: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+
+// Other variables specific to Cosmo's look
+$link: $primary !default;
+// Note: Ensure bulmaFindColorInvert is available via fn namespace
+$link-invert: fn.bulmaFindColorInvert($link) !default;
+$control-border-width: 2px !default;
+$input-border-color: transparent !default;
+$input-shadow: none !default;
+
+$control-border-width: 2px !default;
+$input-border-color: transparent !default;
+$input-shadow: none !default;
+$input-focus-box-shadow-size: 0 0 0 0.125em !default;
+
+// Define the color map for loops
+// Make sure every color has an invert defined!
+// Add 'text' if your overrides use it.
+$custom-colors: () !default; // Empty by default
+
+$my-colors: fn.mergeColorMaps(
+                (
+                        "white": (
+                                liv.$white, // <-- Use liv. namespace
+                                liv.$black-bis // <-- Use liv. namespace
+                        ),
+                        "black": (
+                                liv.$black, // <-- Use liv. namespace
+                                liv.$white // <-- Use liv. namespace
+                        ),
+                        "light": (
+                                $light, // <-- Use liv. namespace
+                                $dark // <-- Use liv. namespace
+                        ),
+                        "dark": (
+                                $dark, // <-- Use liv. namespace
+                                $light // <-- Use liv. namespace
+                        ),
+                        "primary": (
+                                $primary, // Local variable, no namespace needed
+                                $primary-invert // Local variable, no namespace needed
+                        ),
+                        "link": (
+                                $link, // Local variable, no namespace needed
+                                $link-invert // Local variable, no namespace needed
+                        ),
+                        "info": (
+                                $info, // Local variable, no namespace needed
+                                $info-invert // Local variable, no namespace needed
+                        ),
+                        "success": (
+                                $success, // Local variable, no namespace needed
+                                $success-invert // Local variable, no namespace needed
+                        ),
+                        "warning": (
+                                $warning, // Local variable, no namespace needed
+                                $warning-invert // Local variable, no namespace needed
+                        ),
+                        "danger": (
+                                $danger, // Local variable, no namespace needed
+                                $danger-invert // Local variable, no namespace needed
+                        )
+                ),
+                $custom-colors
+);
+
+// Define scheme H/S/L if needed for the theme generation mixin
+// Note: hue() and saturation() are deprecated, use color.hue() etc. after migration
+$scheme-h: color.channel($primary, 'hue', $space: hsl) !default;
+$scheme-s: color.channel($primary, 'saturation', $space: hsl) !default;
+$light-l: 96% !default; // Example lightness values
+$dark-l:  21% !default; // Example lightness values
+
+// Weights (example)
+$weight-light: 300 !default;
+$weight-normal: 400 !default;
+$weight-medium: 500 !default;
+$weight-semibold: 600 !default;
+$weight-bold: 700 !default;
+$weight-extrabold: 800 !default;
+
+// Radii (example)
+$radius-small: 2px !default;
+$radius: 4px !default;
+$radius-medium: 6px !default;
+$radius-large: 8px !default;
+
+// Other base variables
+$block-spacing: 1.5rem !default;

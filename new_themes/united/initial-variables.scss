@@ -1,0 +1,88 @@
+@use "../utilities/functions.scss" as fn;
+@use "sass:color";
+// --- End of @use rules ---
+
+////////////////////////////////////////////////
+// UNITED
+////////////////////////////////////////////////
+
+// These imports provide defaults and functions.
+// Ensure the paths are correct relative to the new theme directory.
+@import "../utilities/light-initial-variables.scss";
+@import "../utilities/derived-variables.scss";
+
+// --- Theme Specific Overrides ---
+// These values override the defaults from the imported files.
+$grey-dark: hsl(221, 14%, 29%);
+$grey: hsl(221, 14%, 48%);
+$grey-light: hsl(221, 14%, 71%);
+$grey-lighter: hsl(221, 14%, 86%);
+$family-sans-serif: "Inter", "SF Pro", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+$weight-light: 300;
+$weight-normal: 400;
+$weight-bold: 700;
+$radius-small: 0.25rem;
+$radius: 0.375rem;
+$radius-large: 0.75rem;
+$primary: $blue;
+$success: $green;
+$info: $cyan;
+$warning: $yellow;
+$danger: $red;
+$link: $blue;
+$light: $white-ter;
+$dark: $grey-darker;
+
+$my-colors: fn.mergeColorMaps(
+  (
+    "white": (
+      hsl(221, 14%, 100%),
+      $grey-darker,
+    ),
+    "black": (
+      hsl(221, 14%, 4%),
+      $white-ter,
+    ),
+    "light": (
+      $white-ter,
+      $grey-darker,
+    ),
+    "dark": (
+      $grey-darker,
+      $white-ter,
+    ),
+    "primary": (
+      $blue,
+      $white-ter,
+    ),
+    "link": (
+      $blue,
+      $white-ter,
+    ),
+    "info": (
+      $cyan,
+      $white-ter,
+    ),
+    "success": (
+      $green,
+      $white-ter,
+    ),
+    "warning": (
+      $yellow,
+      $yellow-invert,
+    ),
+    "danger": (
+      $red,
+      $white-ter,
+    ),
+    "warning-invert": (
+      $yellow-invert,
+      $white-ter,
+    ),
+    "text": (
+      transparent,
+      $grey-darker,
+    ),
+  ),
+  $custom-colors // Allows adding more colors via $custom-colors
+);

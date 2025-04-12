@@ -1,0 +1,174 @@
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+6 │ @import "bulma/sass";
+  │         ^^^^^^^^^^^^
+  ╵
+    cosmo\bulmaswatch.scss 6:9  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use meta.type-of instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+94 │   @if type-of($color) != "color" {
+   │       ^^^^^^^^^^^^^^^
+   ╵
+    utilities\functions.scss 94:7           bulmaColorLuminance()
+    utilities\functions.scss 128:7          bulmaFindColorInvert()
+    utilities\derived-variables.scss 16:15  @use
+    cosmo\cosmo.scss 9:1                    @use
+    cosmo\bulmaswatch.scss 3:1              root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.red instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+99 │     "red": red($color),
+   │            ^^^^^^^^^^^
+   ╵
+    utilities\functions.scss 99:12          bulmaColorLuminance()
+    utilities\functions.scss 128:7          bulmaFindColorInvert()
+    utilities\derived-variables.scss 16:15  @use
+    cosmo\cosmo.scss 9:1                    @use
+    cosmo\bulmaswatch.scss 3:1              root stylesheet
+
+DEPRECATION WARNING [color-functions]: red() is deprecated. Suggestion:
+
+color.channel($color, "red", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ╷
+99 │     "red": red($color),
+   │            ^^^^^^^^^^^
+   ╵
+    utilities\functions.scss 99:12          bulmaColorLuminance()
+    utilities\functions.scss 128:7          bulmaFindColorInvert()
+    utilities\derived-variables.scss 16:15  @use
+    cosmo\cosmo.scss 9:1                    @use
+    cosmo\bulmaswatch.scss 3:1              root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.green instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+100 │     "green": green($color),
+    │              ^^^^^^^^^^^^^
+    ╵
+    utilities\functions.scss 100:14         bulmaColorLuminance()
+    utilities\functions.scss 128:7          bulmaFindColorInvert()
+    utilities\derived-variables.scss 16:15  @use
+    cosmo\cosmo.scss 9:1                    @use
+    cosmo\bulmaswatch.scss 3:1              root stylesheet
+
+DEPRECATION WARNING [color-functions]: green() is deprecated. Suggestion:
+
+color.channel($color, "green", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+100 │     "green": green($color),
+    │              ^^^^^^^^^^^^^
+    ╵
+    utilities\functions.scss 100:14         bulmaColorLuminance()
+    utilities\functions.scss 128:7          bulmaFindColorInvert()
+    utilities\derived-variables.scss 16:15  @use
+    cosmo\cosmo.scss 9:1                    @use
+    cosmo\bulmaswatch.scss 3:1              root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.blue instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+101 │     "blue": blue($color),
+    │             ^^^^^^^^^^^^
+    ╵
+    utilities\functions.scss 101:13         bulmaColorLuminance()
+    utilities\functions.scss 128:7          bulmaFindColorInvert()
+    utilities\derived-variables.scss 16:15  @use
+    cosmo\cosmo.scss 9:1                    @use
+    cosmo\bulmaswatch.scss 3:1              root stylesheet
+
+DEPRECATION WARNING [color-functions]: blue() is deprecated. Suggestion:
+
+color.channel($color, "blue", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+101 │     "blue": blue($color),
+    │             ^^^^^^^^^^^^
+    ╵
+    utilities\functions.scss 101:13         bulmaColorLuminance()
+    utilities\functions.scss 128:7          bulmaFindColorInvert()
+    utilities\derived-variables.scss 16:15  @use
+    cosmo\cosmo.scss 9:1                    @use
+    cosmo\bulmaswatch.scss 3:1              root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.merge instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ╷
+115 │       $color-rgb: map-merge(
+    │ ┌─────────────────^
+116 │ │       $color-rgb,
+117 │ │       (
+118 │ │         $name: $value,
+119 │ │       )
+120 │ │     );
+    │ └─────^
+    ╵
+    utilities\functions.scss 115:17         bulmaColorLuminance()
+    utilities\functions.scss 128:7          bulmaFindColorInvert()
+    utilities\derived-variables.scss 16:15  @use
+    cosmo\cosmo.scss 9:1                    @use
+    cosmo\bulmaswatch.scss 3:1              root stylesheet
+
+DEPRECATION WARNING [color-functions]: red() is deprecated. Suggestion:
+
+color.channel($color, "red", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ╷
+51 │     (red($value), green($value), blue($value)),
+   │      ^^^^^^^^^^^
+   ╵
+    utilities\css-variables.scss 51:6   register-rgb()
+    utilities\css-variables.scss 130:3  register-base-color()
+    utilities\css-variables.scss 135:3  generate-basic-palette()
+    cosmo\cosmo.scss 126:7              light-theme()
+    cosmo\bulmaswatch.scss 9:3          root stylesheet
+
+DEPRECATION WARNING [color-functions]: green() is deprecated. Suggestion:
+
+color.channel($color, "green", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ╷
+51 │     (red($value), green($value), blue($value)),
+   │                   ^^^^^^^^^^^^^
+   ╵
+    utilities\css-variables.scss 51:19  register-rgb()
+    utilities\css-variables.scss 130:3  register-base-color()
+    utilities\css-variables.scss 135:3  generate-basic-palette()
+    cosmo\cosmo.scss 126:7              light-theme()
+    cosmo\bulmaswatch.scss 9:3          root stylesheet
+
+WARNING: 48 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+

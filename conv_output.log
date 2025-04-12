@@ -1,0 +1,529 @@
+Starting theme processing from: C:\dev\javascript\bulmaswatch\old
+Using Sass load paths: C:\dev\javascript\bulmaswatch, C:\dev\javascript\bulmaswatch\node_modules
+
+Processing theme: cerulean...
+DEPRECATION WARNING [color-functions]: color.red() is deprecated. Suggestion:
+
+color.channel($color, "red", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+104 │     "red": color.red($color),
+    │            ^^^^^^^^^^^^^^^^^
+    ╵
+    utilities\functions.scss 104:12     bulmaColorLuminance()
+    utilities\functions.scss 133:7      bulmaFindColorInvert()
+    old\cerulean\_overrides.scss 30:22  @use
+    old\cerulean\bulmaswatch.scss 4:1   root stylesheet
+
+DEPRECATION WARNING [color-functions]: color.green() is deprecated. Suggestion:
+
+color.channel($color, "green", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+105 │     "green": color.green($color),
+    │              ^^^^^^^^^^^^^^^^^^^
+    ╵
+    utilities\functions.scss 105:14     bulmaColorLuminance()
+    utilities\functions.scss 133:7      bulmaFindColorInvert()
+    old\cerulean\_overrides.scss 30:22  @use
+    old\cerulean\bulmaswatch.scss 4:1   root stylesheet
+
+DEPRECATION WARNING [color-functions]: color.blue() is deprecated. Suggestion:
+
+color.channel($color, "blue", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+106 │     "blue": color.blue($color),
+    │             ^^^^^^^^^^^^^^^^^^
+    ╵
+    utilities\functions.scss 106:13     bulmaColorLuminance()
+    utilities\functions.scss 133:7      bulmaFindColorInvert()
+    old\cerulean\_overrides.scss 30:22  @use
+    old\cerulean\bulmaswatch.scss 4:1   root stylesheet
+
+[cerulean] Error during processing: Undefined variable.
+   ╷
+52 │   box-shadow: 0 0 0 1px $border;
+   │                         ^^^^^^^
+   ╵
+  old\cerulean\_overrides.scss 52:25  @use
+  old\cerulean\bulmaswatch.scss 4:1   root stylesheet
+Sass Stack: old\cerulean\_overrides.scss 52:25  @use
+old\cerulean\bulmaswatch.scss 4:1   root stylesheet
+
+--- Finished cerulean ---
+Processing theme: cosmo...
+DEPRECATION WARNING [color-functions]: color.red() is deprecated. Suggestion:
+
+color.channel($color, "red", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+104 │     "red": color.red($color),
+    │            ^^^^^^^^^^^^^^^^^
+    ╵
+    utilities\functions.scss 104:12          bulmaColorLuminance()
+    utilities\functions.scss 133:7           bulmaFindColorInvert()
+    old\cosmo\_initial-variables.scss 40:15  @use
+    old\cosmo\_overrides.scss 4:1            @use
+    old\cosmo\bulmaswatch.scss 3:1           root stylesheet
+
+DEPRECATION WARNING [color-functions]: color.green() is deprecated. Suggestion:
+
+color.channel($color, "green", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+105 │     "green": color.green($color),
+    │              ^^^^^^^^^^^^^^^^^^^
+    ╵
+    utilities\functions.scss 105:14          bulmaColorLuminance()
+    utilities\functions.scss 133:7           bulmaFindColorInvert()
+    old\cosmo\_initial-variables.scss 40:15  @use
+    old\cosmo\_overrides.scss 4:1            @use
+    old\cosmo\bulmaswatch.scss 3:1           root stylesheet
+
+DEPRECATION WARNING [color-functions]: color.blue() is deprecated. Suggestion:
+
+color.channel($color, "blue", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+106 │     "blue": color.blue($color),
+    │             ^^^^^^^^^^^^^^^^^^
+    ╵
+    utilities\functions.scss 106:13          bulmaColorLuminance()
+    utilities\functions.scss 133:7           bulmaFindColorInvert()
+    old\cosmo\_initial-variables.scss 40:15  @use
+    old\cosmo\_overrides.scss 4:1            @use
+    old\cosmo\bulmaswatch.scss 3:1           root stylesheet
+
+[cosmo] Could not parse value for --bulma-primary: 'hsla(var(--bulma-primary-h), var(--bulma-primary-s), var(--bulma-primary-l), 1)'. Returning raw value.
+[cosmo] Could not parse value for --bulma-link: 'hsla(var(--bulma-link-h), var(--bulma-link-s), var(--bulma-link-l), 1)'. Returning raw value.
+[cosmo] Could not parse value for --bulma-info: 'hsla(var(--bulma-info-h), var(--bulma-info-s), var(--bulma-info-l), 1)'. Returning raw value.
+[cosmo] Could not parse value for --bulma-success: 'hsla(var(--bulma-success-h), var(--bulma-success-s), var(--bulma-success-l), 1)'. Returning raw value.
+[cosmo] Could not parse value for --bulma-warning: 'hsla(var(--bulma-warning-h), var(--bulma-warning-s), var(--bulma-warning-l), 1)'. Returning raw value.
+[cosmo] Could not parse value for --bulma-danger: 'hsla(var(--bulma-danger-h), var(--bulma-danger-s), var(--bulma-danger-l), 1)'. Returning raw value.
+[cosmo] Could not parse value for --bulma-light: 'hsla(var(--bulma-light-h), var(--bulma-light-s), var(--bulma-light-l), 1)'. Returning raw value.
+[cosmo] Could not parse value for --bulma-dark: 'hsla(var(--bulma-dark-h), var(--bulma-dark-s), var(--bulma-dark-l), 1)'. Returning raw value.
+[cosmo] Could not parse value for --bulma-white: 'hsla(var(--bulma-white-h), var(--bulma-white-s), var(--bulma-white-l), 1)'. Returning raw value.
+[cosmo] Could not parse value for --bulma-black: 'hsla(var(--bulma-black-h), var(--bulma-black-s), var(--bulma-black-l), 1)'. Returning raw value.
+[cosmo] Could not parse value for --bulma-text: 'hsla(var(--bulma-text-h), var(--bulma-text-s), var(--bulma-text-l), 1)'. Returning raw value.
+[cosmo] Could not parse value for --bulma-text-strong: 'hsl(var(--bulma-text-h), var(--bulma-text-s), var(--bulma-text-strong-l))'. Returning raw value.
+[cosmo] Could not parse value for --bulma-text-weak: 'hsl(var(--bulma-text-h), var(--bulma-text-s), var(--bulma-text-weak-l))'. Returning raw value.
+[cosmo] Could not parse value for --bulma-background: 'hsl(var(--bulma-scheme-h), var(--bulma-scheme-s), var(--bulma-background-l))'. Returning raw value.
+[cosmo] Could not parse value for --bulma-border: 'hsl(var(--bulma-scheme-h), var(--bulma-scheme-s), var(--bulma-border-l))'. Returning raw value.
+[cosmo] Could not parse value for --bulma-border-weak: 'hsl(var(--bulma-scheme-h), var(--bulma-scheme-s), var(--bulma-border-weak-l))'. Returning raw value.
+[cosmo] Could not parse value for --bulma-easing: 'ease-out'. Returning raw value.
+[cosmo] Could not parse value for --bulma-body-background-color: 'var(--bulma-scheme-main)'. Returning raw value.
+[cosmo] Could not parse value for --bulma-body-color: 'var(--bulma-text)'. Returning raw value.
+[cosmo] Could not parse value for --bulma-body-weight: 'var(--bulma-weight-normal)'. Returning raw value.
+[cosmo] Could not parse value for --bulma-code-background: 'var(--bulma-background)'. Returning raw value.
+[cosmo] Could not parse value for --bulma-pre-background: 'var(--bulma-background)'. Returning raw value.
+[cosmo] Could not parse value for --bulma-box-background-color: 'var(--bulma-scheme-main)'. Returning raw value.
+[cosmo] Could not parse value for --bulma-box-color: 'var(--bulma-text)'. Returning raw value.
+[cosmo] Could not parse value for --bulma-box-radius: 'var(--bulma-radius-large)'. Returning raw value.
+[cosmo] Could not parse value for --bulma-box-shadow: 'var(--bulma-shadow)'. Returning raw value.
+[cosmo] Could not parse value for --bulma-button-family: 'false'. Returning raw value.
+[cosmo] Could not parse value for --bulma-button-weight: 'var(--bulma-weight-medium)'. Returning raw value.
+[cosmo] Could not parse value for --bulma-button-border-color: 'var(--bulma-border)'. Returning raw value.
+[cosmo] Could not parse value for --bulma-input-border-color: 'hsl(var(--bulma-input-h), var(--bulma-input-s), calc(var(--bulma-input-border-l) + var(--bulma-input-border-l-delta)))'. Returning raw value.
+[cosmo] Could not parse value for --bulma-notification-padding: '1.375em 1.5em'. Returning raw value.
+[cosmo] Could not parse value for --bulma-notification-radius: 'var(--bulma-radius)'. Returning raw value.
+[cosmo] Could not parse value for --bulma-card-color: 'var(--bulma-text)'. Returning raw value.
+[cosmo] Could not parse value for --bulma-card-background-color: 'var(--bulma-scheme-main)'. Returning raw value.
+[cosmo] Could not parse value for --bulma-card-shadow: 'var(--bulma-shadow)'. Returning raw value.
+[cosmo] Could not parse value for --bulma-card-header-background-color: 'transparent'. Returning raw value.
+[cosmo] Could not parse value for --bulma-card-header-color: 'var(--bulma-text-strong)'. Returning raw value.
+[cosmo] Could not parse value for --bulma-card-header-shadow: '0 0.125em 0.25em hsla(var(--bulma-scheme-h), var(--bulma-scheme-s), var(--bulma-scheme-invert-l), 0.1)'. Returning raw value.
+[cosmo] Could not parse value for --bulma-card-content-background-color: 'transparent'. Returning raw value.
+[cosmo] Could not parse value for --bulma-card-footer-border-top: '1px solid var(--bulma-border-weak)'. Returning raw value.
+[cosmo] Could not parse value for --bulma-navbar-background-color: 'var(--bulma-scheme-main)'. Returning raw value.
+[cosmo] Could not parse value for --bulma-navbar-item-color: 'hsl(var(--bulma-navbar-h), var(--bulma-navbar-s), var(--bulma-navbar-item-color-l))'. Returning raw value.
+[cosmo] Could not parse value for --bulma-navbar-item-hover-color: 'hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-background-l))'. Returning raw value.
+[cosmo] Could not parse value for --bulma-navbar-item-hover-background-color: 'hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-color-l))'. Returning raw value.
+[cosmo] Could not parse value for --bulma-navbar-item-active-color: 'hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-background-l))'. Returning raw value.
+[cosmo] Could not parse value for --bulma-navbar-item-active-background-color: 'hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-color-l))'. Returning raw value.
+[cosmo] Could not parse value for --bulma-navbar-dropdown-background-color: 'var(--bulma-scheme-main)'. Returning raw value.
+[cosmo] Could not parse value for --bulma-footer-background-color: 'var(--bulma-scheme-main-bis)'. Returning raw value.
+[cosmo] Could not parse value for --bulma-footer-color: 'false'. Returning raw value.
+[cosmo] Could not parse value for --bulma-footer-padding: '3rem 1.5rem 6rem'. Returning raw value.
+[cosmo] Could not parse value for --bulma-white: 'hsla(var(--bulma-white-h), var(--bulma-white-s), var(--bulma-white-l), 1)'. Returning raw value.
+[cosmo] Could not parse value for --bulma-black: 'hsla(var(--bulma-black-h), var(--bulma-black-s), var(--bulma-black-l), 1)'. Returning raw value.
+[cosmo] Could not parse value for --bulma-black: 'hsla(var(--bulma-black-h), var(--bulma-black-s), var(--bulma-black-l), 1)'. Returning raw value.
+[cosmo] Could not parse value for --bulma-white: 'hsla(var(--bulma-white-h), var(--bulma-white-s), var(--bulma-white-l), 1)'. Returning raw value.
+--- Finished cosmo ---
+Processing theme: cyborg...
+DEPRECATION WARNING [function-units]: $lightness: Passing a number without unit % (4) is deprecated.
+
+To preserve current behavior: $lightness * 1%
+
+More info: https://sass-lang.com/d/function-units
+
+   ╷
+61 │ $table-striped-row-even-hover-background-color: color.adjust($grey-dark, $lightness: 4);
+   │                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    old\cyborg\_variables.scss 61:49  @use
+    old\cyborg\bulmaswatch.scss 3:1   root stylesheet
+
+[cyborg] Error during processing: Undefined variable.
+   ╷
+19 │   color: $grey-lighter;
+   │          ^^^^^^^^^^^^^
+   ╵
+  old\cyborg\_overrides.scss 19:10  @use
+  old\cyborg\bulmaswatch.scss 4:1   root stylesheet
+Sass Stack: old\cyborg\_overrides.scss 19:10  @use
+old\cyborg\bulmaswatch.scss 4:1   root stylesheet
+
+--- Finished cyborg ---
+Processing theme: darkly...
+DEPRECATION WARNING [function-units]: $lightness: Passing a number without unit % (5) is deprecated.
+
+To preserve current behavior: $lightness * 1%
+
+More info: https://sass-lang.com/d/function-units
+
+   ╷
+59 │ $link-hover: color.adjust($link, $lightness: 5);
+   │              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    old\darkly\_variables.scss 59:14  @use
+    old\darkly\bulmaswatch.scss 3:1   root stylesheet
+
+DEPRECATION WARNING [function-units]: $lightness: Passing a number without unit % (2) is deprecated.
+
+To preserve current behavior: $lightness * 1%
+
+More info: https://sass-lang.com/d/function-units
+
+   ╷
+86 │ $table-striped-row-even-hover-background-color: color.adjust($grey-darker, $lightness: 2);
+   │                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    old\darkly\_variables.scss 86:49  @use
+    old\darkly\bulmaswatch.scss 3:1   root stylesheet
+
+[darkly] Error during processing: Undefined variable.
+   ╷
+11 │   height: $border-width;
+   │           ^^^^^^^^^^^^^
+   ╵
+  old\darkly\_overrides.scss 11:11  @use
+  old\darkly\bulmaswatch.scss 4:1   root stylesheet
+Sass Stack: old\darkly\_overrides.scss 11:11  @use
+old\darkly\bulmaswatch.scss 4:1   root stylesheet
+
+--- Finished darkly ---
+Processing theme: flatly...
+[flatly] Error during processing: Undefined variable.
+   ╷
+10 │   height: $border-width;
+   │           ^^^^^^^^^^^^^
+   ╵
+  old\flatly\_overrides.scss 10:11  @use
+  old\flatly\bulmaswatch.scss 4:1   root stylesheet
+Sass Stack: old\flatly\_overrides.scss 10:11  @use
+old\flatly\bulmaswatch.scss 4:1   root stylesheet
+
+--- Finished flatly ---
+Processing theme: journal...
+[journal] Error during processing: Undefined variable.
+   ╷
+10 │   font-family: $family-heading;
+   │                ^^^^^^^^^^^^^^^
+   ╵
+  old\journal\_overrides.scss 10:16  @use
+  old\journal\bulmaswatch.scss 4:1   root stylesheet
+Sass Stack: old\journal\_overrides.scss 10:16  @use
+old\journal\bulmaswatch.scss 4:1   root stylesheet
+
+--- Finished journal ---
+Processing theme: litera...
+[litera] Error during processing: Undefined variable.
+   ╷
+31 │     box-shadow: 0 0 0 2px rgba($button-active-border-color, 0.3);
+   │                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+  old\litera\_overrides.scss 31:32  @use
+  old\litera\bulmaswatch.scss 4:1   root stylesheet
+Sass Stack: old\litera\_overrides.scss 31:32  @use
+old\litera\bulmaswatch.scss 4:1   root stylesheet
+
+--- Finished litera ---
+Processing theme: lumen...
+[lumen] Error during processing: Undefined variable.
+   ╷
+12 │   border-width: 1px 1px $thickness 1px;
+   │                         ^^^^^^^^^^
+   ╵
+  old\lumen\_overrides.scss 12:25  @use
+  old\lumen\bulmaswatch.scss 4:1   root stylesheet
+Sass Stack: old\lumen\_overrides.scss 12:25  @use
+old\lumen\bulmaswatch.scss 4:1   root stylesheet
+
+--- Finished lumen ---
+Processing theme: lux...
+[lux] Error during processing: Undefined variable.
+   ╷
+33 │     box-shadow: 0 0 0 2px rgba($button-focus-border-color, 0.25);
+   │                                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+  old\lux\_overrides.scss 33:32  @use
+  old\lux\bulmaswatch.scss 4:1   root stylesheet
+Sass Stack: old\lux\_overrides.scss 33:32  @use
+old\lux\bulmaswatch.scss 4:1   root stylesheet
+
+--- Finished lux ---
+Processing theme: materia...
+[materia] Error during processing: Undefined variable.
+   ╷
+11 │   background-color: color.adjust($grey-lighter, $lightness: 5);
+   │                                  ^^^^^^^^^^^^^
+   ╵
+  old\materia\_overrides.scss 11:34  @use
+  old\materia\bulmaswatch.scss 4:1   root stylesheet
+Sass Stack: old\materia\_overrides.scss 11:34  @use
+old\materia\bulmaswatch.scss 4:1   root stylesheet
+
+--- Finished materia ---
+Processing theme: minty...
+[minty] Error during processing: Undefined variable.
+   ╷
+20 │   font-family: $family-heading;
+   │                ^^^^^^^^^^^^^^^
+   ╵
+  old\minty\_overrides.scss 20:16  @use
+  old\minty\bulmaswatch.scss 4:1   root stylesheet
+Sass Stack: old\minty\_overrides.scss 20:16  @use
+old\minty\bulmaswatch.scss 4:1   root stylesheet
+
+--- Finished minty ---
+Processing theme: nuclear...
+[nuclear] Error during processing: Undefined variable.
+   ╷
+11 │   border-bottom: solid 1px $primary;
+   │                            ^^^^^^^^
+   ╵
+  old\nuclear\_overrides.scss 11:28  @use
+  old\nuclear\bulmaswatch.scss 4:1   root stylesheet
+Sass Stack: old\nuclear\_overrides.scss 11:28  @use
+old\nuclear\bulmaswatch.scss 4:1   root stylesheet
+
+--- Finished nuclear ---
+Processing theme: pulse...
+DEPRECATION WARNING [function-units]: $lightness: Passing a number without unit % (5) is deprecated.
+
+To preserve current behavior: $lightness * 1%
+
+More info: https://sass-lang.com/d/function-units
+
+   ╷
+31 │ $link-hover: color.adjust($link, $lightness: 5);
+   │              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    old\pulse\_variables.scss 31:14  @use
+    old\pulse\bulmaswatch.scss 3:1   root stylesheet
+
+[pulse] Error during processing: Undefined variable.
+   ╷
+11 │   border-color: $primary;
+   │                 ^^^^^^^^
+   ╵
+  old\pulse\_overrides.scss 11:17  @use
+  old\pulse\bulmaswatch.scss 4:1   root stylesheet
+Sass Stack: old\pulse\_overrides.scss 11:17  @use
+old\pulse\bulmaswatch.scss 4:1   root stylesheet
+
+--- Finished pulse ---
+Processing theme: sandstone...
+[sandstone] Error during processing: $n: Invalid index 2 for a list with 1 elements.
+   ╷
+17 │     $color-invert: list.nth($pair, 2);
+   │                    ^^^^^^^^^^^^^^^^^^
+   ╵
+  old\sandstone\_overrides.scss 17:20  @use
+  old\sandstone\bulmaswatch.scss 4:1   root stylesheet
+Sass Stack: old\sandstone\_overrides.scss 17:20  @use
+old\sandstone\bulmaswatch.scss 4:1   root stylesheet
+
+--- Finished sandstone ---
+Processing theme: simplex...
+[simplex] Error during processing: $lightness: (-6% 0.5%) is not a number.
+   ╷
+27 │         border: 1px solid color.adjust($color, $lightness: -6%.5%);
+   │                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+  old\simplex\_overrides.scss 27:27  @use
+  old\simplex\bulmaswatch.scss 4:1   root stylesheet
+Sass Stack: old\simplex\_overrides.scss 27:27  @use
+old\simplex\bulmaswatch.scss 4:1   root stylesheet
+
+--- Finished simplex ---
+Processing theme: slate...
+DEPRECATION WARNING [function-units]: $lightness: Passing a number without unit % (5) is deprecated.
+
+To preserve current behavior: $lightness * 1%
+
+More info: https://sass-lang.com/d/function-units
+
+   ╷
+53 │ $link-hover: color.adjust($link, $lightness: 5);
+   │              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    old\slate\_variables.scss 53:14  @use
+    old\slate\bulmaswatch.scss 3:1   root stylesheet
+
+DEPRECATION WARNING [function-units]: $lightness: Passing a number without unit % (4) is deprecated.
+
+To preserve current behavior: $lightness * 1%
+
+More info: https://sass-lang.com/d/function-units
+
+   ╷
+77 │ $table-striped-row-even-hover-background-color: color.adjust($grey-darker, $lightness: 4);
+   │                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    old\slate\_variables.scss 77:49  @use
+    old\slate\bulmaswatch.scss 3:1   root stylesheet
+
+[slate] Error during processing: Undefined variable.
+   ╷
+29 │   background-color: $grey-dark;
+   │                     ^^^^^^^^^^
+   ╵
+  old\slate\_overrides.scss 29:21  @use
+  old\slate\bulmaswatch.scss 4:1   root stylesheet
+Sass Stack: old\slate\_overrides.scss 29:21  @use
+old\slate\bulmaswatch.scss 4:1   root stylesheet
+
+--- Finished slate ---
+Processing theme: solar...
+DEPRECATION WARNING [function-units]: $lightness: Passing a number without unit % (4) is deprecated.
+
+To preserve current behavior: $lightness * 1%
+
+More info: https://sass-lang.com/d/function-units
+
+   ╷
+97 │ $table-striped-row-even-hover-background-color: color.adjust($grey-darker, $lightness: 4);
+   │                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    old\solar\_variables.scss 97:49  @use
+    old\solar\bulmaswatch.scss 3:1   root stylesheet
+
+DEPRECATION WARNING [function-units]: $lightness: Passing a number without unit % (4) is deprecated.
+
+To preserve current behavior: $lightness * 1%
+
+More info: https://sass-lang.com/d/function-units
+
+    ╷
+112 │ $navbar-dropdown-item-hover-background-color: color.adjust($grey-darker, $lightness: 4);
+    │                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ╵
+    old\solar\_variables.scss 112:47  @use
+    old\solar\bulmaswatch.scss 3:1    root stylesheet
+
+DEPRECATION WARNING [function-units]: $lightness: Passing a number without unit % (4) is deprecated.
+
+To preserve current behavior: $lightness * 1%
+
+More info: https://sass-lang.com/d/function-units
+
+    ╷
+113 │ $navbar-dropdown-item-active-background-color: color.adjust($grey-darker, $lightness: 4);
+    │                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ╵
+    old\solar\_variables.scss 113:48  @use
+    old\solar\bulmaswatch.scss 3:1    root stylesheet
+
+[solar] Error during processing: Undefined variable.
+   ╷
+11 │   background-color: $grey-darker;
+   │                     ^^^^^^^^^^^^
+   ╵
+  old\solar\_overrides.scss 11:21  @use
+  old\solar\bulmaswatch.scss 4:1   root stylesheet
+Sass Stack: old\solar\_overrides.scss 11:21  @use
+old\solar\bulmaswatch.scss 4:1   root stylesheet
+
+--- Finished solar ---
+Processing theme: spacelab...
+[spacelab] Error during processing: Undefined variable.
+   ╷
+22 │   text-shadow: -1px -1px 0 rgba($black, 0.1);
+   │                                 ^^^^^^
+   ╵
+  old\spacelab\_overrides.scss 22:33  @use
+  old\spacelab\bulmaswatch.scss 4:1   root stylesheet
+Sass Stack: old\spacelab\_overrides.scss 22:33  @use
+old\spacelab\bulmaswatch.scss 4:1   root stylesheet
+
+--- Finished spacelab ---
+Processing theme: superhero...
+DEPRECATION WARNING [function-units]: $lightness: Passing a number without unit % (4) is deprecated.
+
+To preserve current behavior: $lightness * 1%
+
+More info: https://sass-lang.com/d/function-units
+
+   ╷
+73 │ $table-striped-row-even-hover-background-color: color.adjust($grey-darker, $lightness: 4);
+   │                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    old\superhero\_variables.scss 73:49  @use
+    old\superhero\bulmaswatch.scss 3:1   root stylesheet
+
+[superhero] Error during processing: Undefined variable.
+   ╷
+21 │     background-color: color.adjust($button-background-color, $lightness: -3%);
+   │                                    ^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+  old\superhero\_overrides.scss 21:36  @use
+  old\superhero\bulmaswatch.scss 4:1   root stylesheet
+Sass Stack: old\superhero\_overrides.scss 21:36  @use
+old\superhero\bulmaswatch.scss 4:1   root stylesheet
+
+--- Finished superhero ---
+Processing theme: united...
+[united] Error during processing: Undefined variable.
+   ╷
+13 │     box-shadow: inset 1px 1px 4px rgba($grey-darker, 0.3);
+   │                                        ^^^^^^^^^^^^
+   ╵
+  old\united\_overrides.scss 13:40  @use
+  old\united\bulmaswatch.scss 4:1   root stylesheet
+Sass Stack: old\united\_overrides.scss 13:40  @use
+old\united\bulmaswatch.scss 4:1   root stylesheet
+
+--- Finished united ---
+Processing theme: yeti...
+[yeti] Error during processing: Undefined variable.
+   ╷
+13 │     box-shadow: inset 1px 1px 4px rgba($grey-darker, 0.3);
+   │                                        ^^^^^^^^^^^^
+   ╵
+  old\yeti\_overrides.scss 13:40  @use
+  old\yeti\bulmaswatch.scss 4:1   root stylesheet
+Sass Stack: old\yeti\_overrides.scss 13:40  @use
+old\yeti\bulmaswatch.scss 4:1   root stylesheet
+
+--- Finished yeti ---
+
+--- Processing Summary ---
+Processed: 1 themes
+Skipped:   0 themes (due to missing files or no data extracted)
+Errors:    20 themes (encountered errors during processing)
+
+Successfully generated theme data at: C:\dev\javascript\bulmaswatch\bulmaswatch_themes.json

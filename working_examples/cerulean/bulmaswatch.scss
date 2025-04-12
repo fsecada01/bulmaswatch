@@ -1,0 +1,11 @@
+@use "../../utilities/setup";
+@use "cerulean";
+@use "overrides";
+
+/*! bulmaswatch v0.8.1 | MIT License */
+@import "bulma";
+
+:root {
+  @include cerulean.light-theme;
+  @include setup.setup-theme;
+}

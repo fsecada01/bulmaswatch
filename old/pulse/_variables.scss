@@ -1,0 +1,59 @@
+@use "sass:color";
+////////////////////////////////////////////////
+// PULSE
+////////////////////////////////////////////////
+$orange: #ff7518;
+$yellow: #f1c40f;
+$green: #2ecc71;
+$turquoise: #14a789;
+$blue: #3498db;
+$purple: #8e44ad;
+$red: #e74c3c;
+
+$primary: $purple !default;
+$warning: $orange;
+
+$orange-invert: #fff;
+$warning-invert: $orange-invert;
+
+$background: color.adjust($primary, $lightness: 50%);
+
+$family-sans-serif: "Muli", "Helvetica Neue", Arial, sans-serif;
+$body-size: 14px;
+
+$subtitle-color: color.adjust($primary, $lightness: -10%);
+
+$radius: 0;
+$radius-small: 0;
+$radius-large: 0;
+
+$link: $turquoise;
+$link-hover: color.adjust($link, $lightness: 5);
+$link-focus: color.adjust($link, $lightness: -10%);
+$link-active: color.adjust($link, $lightness: -10%);
+
+$button-hover-color: color.adjust($primary, $lightness: 10%);
+$button-hover-border-color: color.adjust($primary, $lightness: 10%);
+
+$button-focus-color: color.adjust($primary, $lightness: -10%);
+$button-focus-border-color: color.adjust($primary, $lightness: -10%);
+$button-focus-box-shadow-size: 0 0 0 0.125em;
+$button-focus-box-shadow-color: rgba($primary, 0.25);
+
+$button-active-color: color.adjust($primary, $lightness: -10%);
+$button-active-border-color: color.adjust($primary, $lightness: -10%);
+
+$navbar-background-color: $primary;
+$navbar-item-color: #fff;
+$navbar-item-hover-color: $navbar-item-color;
+$navbar-item-active-color: $navbar-item-color;
+$navbar-item-hover-background-color: rgba(#000, 0.2);
+$navbar-item-active-background-color: rgba(#000, 0.2);
+$navbar-dropdown-item-active-color: $primary;
+$navbar-dropdown-arrow: $navbar-item-color;
+
+$menu-item-active-background-color: $primary;
+
+$bulmaswatch-import-font: true !default;
+
+$control-height: 2.572em;

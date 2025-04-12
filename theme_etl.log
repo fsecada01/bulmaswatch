@@ -1,0 +1,197 @@
+2025-04-12 16:24:11,351 - INFO - Starting SCSS theme ETL process...
+2025-04-12 16:24:11,353 - INFO - Scanning old themes in: C:\dev\javascript\bulmaswatch\old
+2025-04-12 16:24:11,354 - INFO - Outputting new themes to: C:\dev\javascript\bulmaswatch\new_themes
+2025-04-12 16:24:11,355 - INFO - Expecting utilities in: C:\dev\javascript\bulmaswatch\utilities
+2025-04-12 16:24:11,358 - INFO - Found 22 potential theme directories.
+2025-04-12 16:24:11,359 - INFO - --- Processing theme directory: cerulean ---
+2025-04-12 16:24:11,360 - WARNING - Variable file not found: old\cerulean\_bootswatch.scss
+2025-04-12 16:24:11,361 - INFO - Extracted 23 variables for cerulean.
+2025-04-12 16:24:11,361 - INFO - Transforming theme: cerulean
+2025-04-12 16:24:11,362 - INFO - Generated file content for 4 files for theme cerulean.
+2025-04-12 16:24:11,362 - INFO - --- Processing theme directory: cosmo ---
+2025-04-12 16:24:11,363 - WARNING - Variable file not found: old\cosmo\_variables.scss
+2025-04-12 16:24:11,363 - WARNING - Variable file not found: old\cosmo\_bootswatch.scss
+2025-04-12 16:24:11,363 - WARNING - No variables extracted for theme: cosmo. Skipping.
+2025-04-12 16:24:11,364 - INFO - --- Processing theme directory: cyborg ---
+2025-04-12 16:24:11,365 - WARNING - Variable file not found: old\cyborg\_bootswatch.scss
+2025-04-12 16:24:11,365 - INFO - Extracted 65 variables for cyborg.
+2025-04-12 16:24:11,366 - INFO - Transforming theme: cyborg
+2025-04-12 16:24:11,366 - INFO - Generated file content for 4 files for theme cyborg.
+2025-04-12 16:24:11,367 - INFO - --- Processing theme directory: darkly ---
+2025-04-12 16:24:11,369 - WARNING - Variable file not found: old\darkly\_bootswatch.scss
+2025-04-12 16:24:11,370 - INFO - Extracted 84 variables for darkly.
+2025-04-12 16:24:11,370 - INFO - Transforming theme: darkly
+2025-04-12 16:24:11,371 - INFO - Generated file content for 4 files for theme darkly.
+2025-04-12 16:24:11,371 - INFO - --- Processing theme directory: default ---
+2025-04-12 16:24:11,372 - WARNING - Variable file not found: old\default\_bootswatch.scss
+2025-04-12 16:24:11,372 - WARNING - No variables extracted for theme: default. Skipping.
+2025-04-12 16:24:11,373 - INFO - --- Processing theme directory: flatly ---
+2025-04-12 16:24:11,374 - WARNING - Variable file not found: old\flatly\_bootswatch.scss
+2025-04-12 16:24:11,374 - INFO - Extracted 51 variables for flatly.
+2025-04-12 16:24:11,375 - INFO - Transforming theme: flatly
+2025-04-12 16:24:11,375 - INFO - Generated file content for 4 files for theme flatly.
+2025-04-12 16:24:11,375 - INFO - --- Processing theme directory: journal ---
+2025-04-12 16:24:11,377 - WARNING - Variable file not found: old\journal\_bootswatch.scss
+2025-04-12 16:24:11,377 - INFO - Extracted 22 variables for journal.
+2025-04-12 16:24:11,377 - INFO - Transforming theme: journal
+2025-04-12 16:24:11,378 - INFO - Generated file content for 4 files for theme journal.
+2025-04-12 16:24:11,378 - INFO - --- Processing theme directory: litera ---
+2025-04-12 16:24:11,379 - WARNING - Variable file not found: old\litera\_bootswatch.scss
+2025-04-12 16:24:11,380 - INFO - Extracted 28 variables for litera.
+2025-04-12 16:24:11,380 - INFO - Transforming theme: litera
+2025-04-12 16:24:11,381 - INFO - Generated file content for 4 files for theme litera.
+2025-04-12 16:24:11,381 - INFO - --- Processing theme directory: lumen ---
+2025-04-12 16:24:11,382 - WARNING - Variable file not found: old\lumen\_bootswatch.scss
+2025-04-12 16:24:11,383 - INFO - Extracted 14 variables for lumen.
+2025-04-12 16:24:11,383 - INFO - Transforming theme: lumen
+2025-04-12 16:24:11,384 - INFO - Generated file content for 4 files for theme lumen.
+2025-04-12 16:24:11,384 - INFO - --- Processing theme directory: lux ---
+2025-04-12 16:24:11,386 - WARNING - Variable file not found: old\lux\_bootswatch.scss
+2025-04-12 16:24:11,387 - INFO - Extracted 29 variables for lux.
+2025-04-12 16:24:11,388 - INFO - Transforming theme: lux
+2025-04-12 16:24:11,389 - INFO - Generated file content for 4 files for theme lux.
+2025-04-12 16:24:11,389 - INFO - --- Processing theme directory: materia ---
+2025-04-12 16:24:11,391 - WARNING - Variable file not found: old\materia\_bootswatch.scss
+2025-04-12 16:24:11,392 - INFO - Extracted 25 variables for materia.
+2025-04-12 16:24:11,392 - INFO - Transforming theme: materia
+2025-04-12 16:24:11,393 - INFO - Generated file content for 4 files for theme materia.
+2025-04-12 16:24:11,394 - INFO - --- Processing theme directory: minty ---
+2025-04-12 16:24:11,396 - WARNING - Variable file not found: old\minty\_bootswatch.scss
+2025-04-12 16:24:11,396 - INFO - Extracted 32 variables for minty.
+2025-04-12 16:24:11,397 - INFO - Transforming theme: minty
+2025-04-12 16:24:11,399 - INFO - Generated file content for 4 files for theme minty.
+2025-04-12 16:24:11,401 - INFO - --- Processing theme directory: nuclear ---
+2025-04-12 16:24:11,403 - WARNING - Variable file not found: old\nuclear\_bootswatch.scss
+2025-04-12 16:24:11,403 - INFO - Extracted 25 variables for nuclear.
+2025-04-12 16:24:11,405 - INFO - Transforming theme: nuclear
+2025-04-12 16:24:11,407 - INFO - Generated file content for 4 files for theme nuclear.
+2025-04-12 16:24:11,408 - INFO - --- Processing theme directory: pulse ---
+2025-04-12 16:24:11,409 - WARNING - Variable file not found: old\pulse\_bootswatch.scss
+2025-04-12 16:24:11,410 - INFO - Extracted 41 variables for pulse.
+2025-04-12 16:24:11,411 - INFO - Transforming theme: pulse
+2025-04-12 16:24:11,412 - INFO - Generated file content for 4 files for theme pulse.
+2025-04-12 16:24:11,413 - INFO - --- Processing theme directory: sandstone ---
+2025-04-12 16:24:11,415 - WARNING - Variable file not found: old\sandstone\_bootswatch.scss
+2025-04-12 16:24:11,416 - INFO - Extracted 26 variables for sandstone.
+2025-04-12 16:24:11,417 - INFO - Transforming theme: sandstone
+2025-04-12 16:24:11,418 - INFO - Generated file content for 4 files for theme sandstone.
+2025-04-12 16:24:11,418 - INFO - --- Processing theme directory: simplex ---
+2025-04-12 16:24:11,421 - WARNING - Variable file not found: old\simplex\_bootswatch.scss
+2025-04-12 16:24:11,421 - INFO - Extracted 32 variables for simplex.
+2025-04-12 16:24:11,423 - INFO - Transforming theme: simplex
+2025-04-12 16:24:11,424 - INFO - Generated file content for 4 files for theme simplex.
+2025-04-12 16:24:11,424 - INFO - --- Processing theme directory: slate ---
+2025-04-12 16:24:11,426 - WARNING - Variable file not found: old\slate\_bootswatch.scss
+2025-04-12 16:24:11,427 - INFO - Extracted 81 variables for slate.
+2025-04-12 16:24:11,427 - INFO - Transforming theme: slate
+2025-04-12 16:24:11,429 - INFO - Generated file content for 4 files for theme slate.
+2025-04-12 16:24:11,430 - INFO - --- Processing theme directory: solar ---
+2025-04-12 16:24:11,432 - WARNING - Variable file not found: old\solar\_bootswatch.scss
+2025-04-12 16:24:11,433 - INFO - Extracted 89 variables for solar.
+2025-04-12 16:24:11,434 - INFO - Transforming theme: solar
+2025-04-12 16:24:11,434 - INFO - Generated file content for 4 files for theme solar.
+2025-04-12 16:24:11,436 - INFO - --- Processing theme directory: spacelab ---
+2025-04-12 16:24:11,438 - WARNING - Variable file not found: old\spacelab\_bootswatch.scss
+2025-04-12 16:24:11,439 - INFO - Extracted 18 variables for spacelab.
+2025-04-12 16:24:11,439 - INFO - Transforming theme: spacelab
+2025-04-12 16:24:11,440 - INFO - Generated file content for 4 files for theme spacelab.
+2025-04-12 16:24:11,441 - INFO - --- Processing theme directory: superhero ---
+2025-04-12 16:24:11,443 - WARNING - Variable file not found: old\superhero\_bootswatch.scss
+2025-04-12 16:24:11,444 - INFO - Extracted 75 variables for superhero.
+2025-04-12 16:24:11,445 - INFO - Transforming theme: superhero
+2025-04-12 16:24:11,447 - INFO - Generated file content for 4 files for theme superhero.
+2025-04-12 16:24:11,447 - INFO - --- Processing theme directory: united ---
+2025-04-12 16:24:11,449 - WARNING - Variable file not found: old\united\_bootswatch.scss
+2025-04-12 16:24:11,450 - INFO - Extracted 28 variables for united.
+2025-04-12 16:24:11,451 - INFO - Transforming theme: united
+2025-04-12 16:24:11,453 - INFO - Generated file content for 4 files for theme united.
+2025-04-12 16:24:11,454 - INFO - --- Processing theme directory: yeti ---
+2025-04-12 16:24:11,456 - WARNING - Variable file not found: old\yeti\_bootswatch.scss
+2025-04-12 16:24:11,456 - INFO - Extracted 32 variables for yeti.
+2025-04-12 16:24:11,457 - INFO - Transforming theme: yeti
+2025-04-12 16:24:11,458 - INFO - Generated file content for 4 files for theme yeti.
+2025-04-12 16:24:11,462 - INFO - Successfully wrote JSON output to new_themes\generated_themes.json
+2025-04-12 16:24:11,466 - INFO - Read 80 file entries from new_themes\generated_themes.json
+2025-04-12 16:24:11,467 - INFO - Ensured output base directory exists: new_themes
+2025-04-12 16:24:11,496 - INFO - Copied utilities from utilities to new_themes\utilities
+2025-04-12 16:24:11,498 - INFO - Created file: new_themes\cerulean\bulmaswatch.scss
+2025-04-12 16:24:11,501 - INFO - Created file: new_themes\cerulean\cerulean.scss
+2025-04-12 16:24:11,504 - INFO - Created file: new_themes\cerulean\initial-variables.scss
+2025-04-12 16:24:11,507 - INFO - Created file: new_themes\cerulean\overrides.scss
+2025-04-12 16:24:11,509 - INFO - Created file: new_themes\cyborg\bulmaswatch.scss
+2025-04-12 16:24:11,511 - INFO - Created file: new_themes\cyborg\cyborg.scss
+2025-04-12 16:24:11,513 - INFO - Created file: new_themes\cyborg\initial-variables.scss
+2025-04-12 16:24:11,516 - INFO - Created file: new_themes\cyborg\overrides.scss
+2025-04-12 16:24:11,518 - INFO - Created file: new_themes\darkly\bulmaswatch.scss
+2025-04-12 16:24:11,522 - INFO - Created file: new_themes\darkly\darkly.scss
+2025-04-12 16:24:11,524 - INFO - Created file: new_themes\darkly\initial-variables.scss
+2025-04-12 16:24:11,526 - INFO - Created file: new_themes\darkly\overrides.scss
+2025-04-12 16:24:11,528 - INFO - Created file: new_themes\flatly\bulmaswatch.scss
+2025-04-12 16:24:11,531 - INFO - Created file: new_themes\flatly\flatly.scss
+2025-04-12 16:24:11,532 - INFO - Created file: new_themes\flatly\initial-variables.scss
+2025-04-12 16:24:11,534 - INFO - Created file: new_themes\flatly\overrides.scss
+2025-04-12 16:24:11,536 - INFO - Created file: new_themes\journal\bulmaswatch.scss
+2025-04-12 16:24:11,539 - INFO - Created file: new_themes\journal\initial-variables.scss
+2025-04-12 16:24:11,541 - INFO - Created file: new_themes\journal\journal.scss
+2025-04-12 16:24:11,544 - INFO - Created file: new_themes\journal\overrides.scss
+2025-04-12 16:24:11,546 - INFO - Created file: new_themes\litera\bulmaswatch.scss
+2025-04-12 16:24:11,547 - INFO - Created file: new_themes\litera\initial-variables.scss
+2025-04-12 16:24:11,549 - INFO - Created file: new_themes\litera\litera.scss
+2025-04-12 16:24:11,551 - INFO - Created file: new_themes\litera\overrides.scss
+2025-04-12 16:24:11,554 - INFO - Created file: new_themes\lumen\bulmaswatch.scss
+2025-04-12 16:24:11,556 - INFO - Created file: new_themes\lumen\initial-variables.scss
+2025-04-12 16:24:11,558 - INFO - Created file: new_themes\lumen\lumen.scss
+2025-04-12 16:24:11,560 - INFO - Created file: new_themes\lumen\overrides.scss
+2025-04-12 16:24:11,562 - INFO - Created file: new_themes\lux\bulmaswatch.scss
+2025-04-12 16:24:11,563 - INFO - Created file: new_themes\lux\initial-variables.scss
+2025-04-12 16:24:11,565 - INFO - Created file: new_themes\lux\lux.scss
+2025-04-12 16:24:11,568 - INFO - Created file: new_themes\lux\overrides.scss
+2025-04-12 16:24:11,570 - INFO - Created file: new_themes\materia\bulmaswatch.scss
+2025-04-12 16:24:11,571 - INFO - Created file: new_themes\materia\initial-variables.scss
+2025-04-12 16:24:11,573 - INFO - Created file: new_themes\materia\materia.scss
+2025-04-12 16:24:11,574 - INFO - Created file: new_themes\materia\overrides.scss
+2025-04-12 16:24:11,576 - INFO - Created file: new_themes\minty\bulmaswatch.scss
+2025-04-12 16:24:11,577 - INFO - Created file: new_themes\minty\initial-variables.scss
+2025-04-12 16:24:11,579 - INFO - Created file: new_themes\minty\minty.scss
+2025-04-12 16:24:11,581 - INFO - Created file: new_themes\minty\overrides.scss
+2025-04-12 16:24:11,584 - INFO - Created file: new_themes\nuclear\bulmaswatch.scss
+2025-04-12 16:24:11,585 - INFO - Created file: new_themes\nuclear\initial-variables.scss
+2025-04-12 16:24:11,587 - INFO - Created file: new_themes\nuclear\nuclear.scss
+2025-04-12 16:24:11,589 - INFO - Created file: new_themes\nuclear\overrides.scss
+2025-04-12 16:24:11,591 - INFO - Created file: new_themes\pulse\bulmaswatch.scss
+2025-04-12 16:24:11,592 - INFO - Created file: new_themes\pulse\initial-variables.scss
+2025-04-12 16:24:11,594 - INFO - Created file: new_themes\pulse\overrides.scss
+2025-04-12 16:24:11,596 - INFO - Created file: new_themes\pulse\pulse.scss
+2025-04-12 16:24:11,597 - INFO - Created file: new_themes\sandstone\bulmaswatch.scss
+2025-04-12 16:24:11,598 - INFO - Created file: new_themes\sandstone\initial-variables.scss
+2025-04-12 16:24:11,600 - INFO - Created file: new_themes\sandstone\overrides.scss
+2025-04-12 16:24:11,602 - INFO - Created file: new_themes\sandstone\sandstone.scss
+2025-04-12 16:24:11,603 - INFO - Created file: new_themes\simplex\bulmaswatch.scss
+2025-04-12 16:24:11,605 - INFO - Created file: new_themes\simplex\initial-variables.scss
+2025-04-12 16:24:11,607 - INFO - Created file: new_themes\simplex\overrides.scss
+2025-04-12 16:24:11,608 - INFO - Created file: new_themes\simplex\simplex.scss
+2025-04-12 16:24:11,610 - INFO - Created file: new_themes\slate\bulmaswatch.scss
+2025-04-12 16:24:11,611 - INFO - Created file: new_themes\slate\initial-variables.scss
+2025-04-12 16:24:11,614 - INFO - Created file: new_themes\slate\overrides.scss
+2025-04-12 16:24:11,616 - INFO - Created file: new_themes\slate\slate.scss
+2025-04-12 16:24:11,617 - INFO - Created file: new_themes\solar\bulmaswatch.scss
+2025-04-12 16:24:11,619 - INFO - Created file: new_themes\solar\initial-variables.scss
+2025-04-12 16:24:11,621 - INFO - Created file: new_themes\solar\overrides.scss
+2025-04-12 16:24:11,623 - INFO - Created file: new_themes\solar\solar.scss
+2025-04-12 16:24:11,625 - INFO - Created file: new_themes\spacelab\bulmaswatch.scss
+2025-04-12 16:24:11,626 - INFO - Created file: new_themes\spacelab\initial-variables.scss
+2025-04-12 16:24:11,629 - INFO - Created file: new_themes\spacelab\overrides.scss
+2025-04-12 16:24:11,632 - INFO - Created file: new_themes\spacelab\spacelab.scss
+2025-04-12 16:24:11,634 - INFO - Created file: new_themes\superhero\bulmaswatch.scss
+2025-04-12 16:24:11,636 - INFO - Created file: new_themes\superhero\initial-variables.scss
+2025-04-12 16:24:11,638 - INFO - Created file: new_themes\superhero\overrides.scss
+2025-04-12 16:24:11,639 - INFO - Created file: new_themes\superhero\superhero.scss
+2025-04-12 16:24:11,641 - INFO - Created file: new_themes\united\bulmaswatch.scss
+2025-04-12 16:24:11,642 - INFO - Created file: new_themes\united\initial-variables.scss
+2025-04-12 16:24:11,644 - INFO - Created file: new_themes\united\overrides.scss
+2025-04-12 16:24:11,646 - INFO - Created file: new_themes\united\united.scss
+2025-04-12 16:24:11,648 - INFO - Created file: new_themes\yeti\bulmaswatch.scss
+2025-04-12 16:24:11,649 - INFO - Created file: new_themes\yeti\initial-variables.scss
+2025-04-12 16:24:11,651 - INFO - Created file: new_themes\yeti\overrides.scss
+2025-04-12 16:24:11,653 - INFO - Created file: new_themes\yeti\yeti.scss
+2025-04-12 16:24:11,654 - INFO - --- SCSS theme ETL process finished. ---

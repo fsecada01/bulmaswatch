@@ -1,0 +1,47 @@
+// SCSS Overrides for SOLAR Theme
+// This file contains theme-specific CSS rules that go beyond simple variable changes.
+
+// Ensure the paths are correct relative to the new theme directory.
+@import "../utilities/mixins.scss"; // Import shared mixins if needed
+@import "initial-variables"; // Import theme variables for use in overrides
+
+// -----------------------------------------------------------------------------
+// TODO: Add theme-specific overrides below.
+//
+// Analyze the original theme's _bootswatch.scss (or equivalent) file
+// and adapt the custom CSS rules here. This often requires manual adjustments
+// to work correctly with Bulma 1.0's structure and CSS variables.
+//
+// Example structure (adapt from Cerulean or original theme):
+/*
+@mixin btn-gradient($color) {
+  background-image: linear-gradient(
+    180deg,
+    lighten($color, 8%) 0%,
+    $color 60%,
+    darken($color, 4%) 100%
+  );
+}
+
+.button {
+  font-weight: 400 !important; // Example override
+
+  @each $name, $pair in $my-colors {
+    $color: list.nth($pair, 1);
+    &.is-#{$name} {
+      &:not(.is-outlined):not(.is-inverted) {
+        // @include btn-gradient($color); // Apply custom mixin
+      }
+    }
+  }
+}
+
+.navbar:not(.is-transparent) {
+  // ... navbar overrides using $primary, $white, etc. ...
+}
+
+.hero.is-primary {
+  // ... hero overrides ...
+}
+*/
+// -----------------------------------------------------------------------------

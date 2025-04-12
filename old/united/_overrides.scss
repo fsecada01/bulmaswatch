@@ -1,0 +1,110 @@
+@use "sass:color";
+@use "sass:list";
+@use "bulma/sass" as bulma;
+@use "utilities/light-initial-variables" as iv;
+// Overrides
+@if iv.$bulmaswatch-import-font {
+  @import url("https://fonts.googleapis.com/css?family=Ubuntu:400,700&display=swap");
+}
+
+.button {
+  &.is-active,
+  &:active {
+    box-shadow: inset 1px 1px 4px rgba($grey-darker, 0.3);
+  }
+  @each $name, $pair in bulma.$colors {
+    $color: list.nth($pair, 1);
+    $color-invert: list.nth($pair, 2);
+
+    &.is-#{$name} {
+      &.is-hovered,
+      &:hover {
+        background-color: color.adjust($color, $lightness: -10%);
+      }
+
+      &.is-active,
+      &:active {
+        box-shadow: inset 1px 0 3px rgba($grey-darker, 0.3);
+        background-color: color.adjust($color, $lightness: -10%);
+      }
+    }
+  }
+}
+
+.input,
+.textarea {
+  box-shadow: none;
+}
+
+.notification {
+  @each $name, $pair in bulma.$colors {
+    $color: list.nth($pair, 1);
+    $color-invert: list.nth($pair, 2);
+
+    &.is-#{$name} {
+      a:not(.button) {
+        color: $color-invert;
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.navbar {
+  @include until($navbar-breakpoint) {
+    .navbar-menu {
+      background-color: inherit;
+    }
+  }
+
+    @include from($navbar-breakpoint) {
+    .navbar-dropdown .navbar-item {
+      color: $text;
+
+      &.is-active {
+        background-color: $navbar-dropdown-item-hover-background-color;
+      }
+    }
+  }
+
+  &.is-transparent {
+    background-color: transparent;
+    .navbar-item,
+    .navbar-link {
+      color: $text;
+    }
+  }
+
+  .navbar-link::after {
+    border-color: currentColor;
+  }
+
+  @each $name, $pair in bulma.$colors {
+    $color: list.nth($pair, 1);
+    $color-invert: list.nth($pair, 2);
+
+    &.is-#{$name} {
+      @include until($navbar-breakpoint) {
+        .navbar-item,
+        .navbar-link {
+          color: $color-invert;
+        }
+      }
+    }
+  }
+}
+
+.hero {
+  .navbar {
+    .navbar-item,
+    .navbar-link {
+      color: inherit;
+    }
+
+    @include from($navbar-breakpoint) {
+      .navbar-dropdown .navbar-item {
+        color: $text;
+      }
+    }
+  }
+}

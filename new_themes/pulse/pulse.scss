@@ -1,0 +1,146 @@
+@use "sass:list";
+@use "sass:meta"; // For meta.type-of
+@use "../utilities/css-variables" as cv;
+@use "../utilities/functions.scss" as fn;
+@use "../utilities/setup";
+@use "../utilities/derived-variables" as dv;
+@use "initial-variables" as iv;
+// --- End of @use rules ---
+
+// Ensure the paths are correct relative to the new theme directory.
+
+// --- Theme Configuration ---
+// The main lightness of this theme (adjust if needed, e.g., for dark themes)
+$scheme-main-l: 100%;
+
+// The main scheme color, used for calculations
+$scheme-main: hsl(iv.$scheme-h, iv.$scheme-s, $scheme-main-l);
+
+// --- Theme Mixin ---
+@mixin light-theme { // Assuming light theme for now
+  @include cv.register-vars(
+    (
+      "hover-background-l-delta": -5%,
+      "active-background-l-delta": -10%,
+      "hover-border-l-delta": -10%,
+      "active-border-l-delta": -20%,
+      "hover-color-l-delta": -5%,
+      "active-color-l-delta": -10%,
+      "hover-shadow-a-delta": "-0.05",
+      "active-shadow-a-delta": "-0.1",
+      "scheme-brightness": light,
+      "scheme-main-l": 100%,
+      "scheme-main-bis-l": 98%,
+      "scheme-main-ter-l": 96%,
+      "background-l": 96%,
+      "border-weak-l": 93%,
+      "border-l": 86%,
+      "text-weak-l": 48%,
+      "text-l": 29%,
+      "text-strong-l": 21%,
+      "text-title-l": 14%,
+      "scheme-invert-ter-l": 14%,
+      "scheme-invert-bis-l": 7%,
+      "scheme-invert-l": 4%,
+      "duration": 294ms,
+      "easing": ease-out,
+      "radius-rounded": 9999px,
+      "speed": 86ms,
+      "burger-border-radius": 0.5em,
+      "burger-gap": 5px,
+      "burger-item-height": 2px,
+      "burger-item-width": 20px,
+      "arrow-color": #{cv.getVar("link")},
+      "loading-color": #{cv.getVar("border")},
+      "burger-h": #{cv.getVar("link-h")},
+      "burger-s": #{cv.getVar("link-s")},
+      "burger-l": #{cv.getVar("link-l")},
+      "primary": iv.$primary,
+      "scheme-h": iv.$scheme-h,
+      "scheme-s": iv.$scheme-s,
+      "light-l": iv.$light-l,
+      "dark-l": iv.$dark-l,
+      "light-invert-l": iv.$dark-l,
+      "dark-invert-l": iv.$light-l,
+      "soft-l": iv.$light-l,
+      "bold-l": iv.$dark-l,
+      "soft-invert-l": iv.$dark-l,
+      "bold-invert-l": iv.$light-l,
+      "family-primary": iv.$family-sans-serif,
+      "family-secondary": iv.$family-sans-serif,
+      "family-code": iv.$family-code,
+      "size-small": iv.$size-small,
+      "size-normal": iv.$size-normal,
+      "size-medium": iv.$size-medium,
+      "size-large": iv.$size-large,
+      "weight-light": iv.$weight-light,
+      "weight-normal": iv.$weight-normal,
+      "weight-medium": iv.$weight-medium,
+      "weight-semibold": iv.$weight-semibold,
+      "weight-bold": iv.$weight-bold,
+      "weight-extrabold": iv.$weight-extrabold,
+      "block-spacing": iv.$block-spacing,
+      "radius-small": iv.$radius-small,
+      "radius": iv.$radius,
+      "radius-medium": iv.$radius-medium,
+      "radius-large": iv.$radius-large
+
+    )
+  );
+
+  // --- Color Palette Generation ---
+  $no-palette: ("white", "black", "light", "dark"); // Colors without full palette
+
+  @each $name, $color-data in iv.$my-colors {
+    $base: $color-data;
+    $invert: null;
+    $light: null; // Placeholder for potential future use
+    $dark: null;  // Placeholder for potential future use
+
+    // Handle if $color-data is a list (base, invert, [light], [dark])
+    @if meta.type-of($color-data) == "list" {
+      $base: list.nth($color-data, 1);
+      @if list.length($color-data) > 1 {
+        $invert: list.nth($color-data, 2);
+      }
+      // Add logic here if light/dark variants are provided in the list
+      // @if list.length($color-data) > 3 {
+      //   $light: list.nth($color-data, 3);
+      //   $dark: list.nth($color-data, 4);
+      // }
+    }
+
+    // Generate the appropriate palette based on the color name
+    @if list.index($no-palette, $name) {
+      // Basic palette for white, black, light, dark
+      @include cv.generate-basic-palette($name, $base, $invert);
+    } @else {
+      // Full color palette for semantic colors (primary, info, etc.)
+      @include cv.generate-color-palette(
+        $name,
+        $base,
+        $scheme-main-l, // Pass the theme's main lightness
+        $invert,
+        $light, // Pass light/dark if available
+        $dark
+      );
+    }
+
+    // Generate text contrast colors (-on-scheme)
+    @include cv.generate-on-scheme-colors($name, $base, $scheme-main);
+  }
+
+  // --- Shades, Shadow, Sizes (from derived-variables) ---
+  // These assume dv.$shades, dv.$shadow-color, dv.$sizes are defined correctly.
+  @each $name, $shade in dv.$shades {
+    @include cv.register-var($name, $shade);
+  }
+
+  @include cv.register-hsl("shadow", dv.$shadow-color);
+
+  @each $size in dv.$sizes {
+    $i: list.index(dv.$sizes, $size);
+    $name: "size-#{$i}";
+    @include cv.register-var($name, $size);
+  }
+}

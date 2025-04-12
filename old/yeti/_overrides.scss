@@ -1,0 +1,136 @@
+@use "sass:color";
+@use "sass:list";
+@use "bulma/sass" as bulma;
+@use "utilities/light-initial-variables" as iv;
+// Overrides
+@if iv.$bulmaswatch-import-font {
+  @import url("https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700&display=swap");
+}
+
+.button {
+  &.is-active,
+  &:active {
+    box-shadow: inset 1px 1px 4px rgba($grey-darker, 0.3);
+  }
+  @each $name, $pair in bulma.$colors {
+    $color: list.nth($pair, 1);
+    $color-invert: list.nth($pair, 2);
+
+    &.is-#{$name} {
+      border-color: color.adjust($color, $lightness: -5%);
+
+      &.is-hovered,
+      &:hover {
+        background-color: color.adjust($color, $lightness: -10%);
+      }
+
+      &.is-active,
+      &:active {
+        box-shadow: inset 1px 0 3px rgba($grey-darker, 0.3);
+        background-color: color.adjust($color, $lightness: -10%);
+      }
+    }
+  }
+
+  &.is-loading:after {
+    border-color: transparent transparent $grey-light $grey-light;
+  }
+}
+
+.input,
+.textarea {
+  box-shadow: none;
+}
+
+// .box,
+// .card {
+//   box-shadow: 0 0 0 1px $border;
+// }
+
+.notification {
+  @each $name, $pair in bulma.$colors {
+    $color: list.nth($pair, 1);
+    $color-invert: list.nth($pair, 2);
+
+    &.is-#{$name} {
+      a:not(.button) {
+        color: $color-invert;
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.navbar {
+  &.is-transparent {
+    background-color: transparent;
+
+    .navbar-item,
+    .navbar-link {
+      color: $link;
+
+      &:after {
+        border-color: currentColor;
+      }
+    }
+  }
+
+    @include from($navbar-breakpoint) {
+    .has-dropdown .navbar-item {
+      color: $text;
+    }
+  }
+
+  @include until($navbar-breakpoint) {
+    .navbar-menu {
+      background-color: inherit;
+    }
+
+    @each $name, $pair in bulma.$colors {
+      $color: list.nth($pair, 1);
+      $color-invert: list.nth($pair, 2);
+
+      &.is-#{$name} {
+        .navbar-item,
+        .navbar-link {
+          color: $color-invert;
+        }
+      }
+    }
+  }
+}
+
+.hero {
+  .navbar {
+    .navbar-item,
+    .navbar-link {
+      color: $link;
+
+      &:after {
+        border-color: currentColor;
+      }
+    }
+
+    @include from($navbar-breakpoint) {
+      .has-dropdown .navbar-item {
+        color: $text;
+      }
+    }
+  }
+  @each $name, $pair in bulma.$colors {
+    $color: list.nth($pair, 1);
+    $color-invert: list.nth($pair, 2);
+
+    &.is-#{$name} {
+      .navbar-item,
+      .navbar-link {
+        color: $color-invert;
+      }
+    }
+  }
+}
+
+.progress,
+.tag {
+  border-radius: $radius;
+}
